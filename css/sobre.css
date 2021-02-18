@@ -1,32 +1,72 @@
-:root{
-    --quote-blue:#407BFF;
-    --green-main:#33CA99;
-    --texts:#757575;
+:root {
+    --quote-blue: #407BFF;
+    --green-main: #33CA99;
+    --texts: #757575;
 }
-body{
+
+body {
     background: violet;
 }
-#header-site{
+
+#header-site {
     background-image: url(/img/sobre-img.png);
     background-position: center;
     background-repeat: no-repeat;
 }
-.header-site{
+
+.header-site {
     background: linear-gradient(90deg, #33C199 0%, #337399 98.98%);
     mix-blend-mode: hard-light;
 }
-.row{
+
+.row {
     position: relative;
 }
-.bloco-img{
+
+.bloco-img {
     position: relative;
     top: -110px;
 }
-.center{
+
+.center {
     text-align: center;
     color: white;
     padding: 20px 0 150px 0;
 }
-.center h2{
+
+.center h2 {
     font-weight: 800;
+}
+
+.blockquote {
+    font-weight: 900;
+    font-size: 30px;
+    color: #407BFF;
+    line-height: 1.2;
+    margin-top: 50px;
+    width: 470px;
+}
+
+.h4 {
+    background: #33CA99;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    width: 350px;
+    padding: 10px 30px;
+    position: absolute;
+    left: -40px;
+}
+
+.about-text {
+    color: #757575;
+    padding: 90px 0;
+}
+
+.sobre-bloco {
+    position: relative;
+    margin-top: 100px;
 }
