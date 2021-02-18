@@ -213,7 +213,6 @@ border-radius: 6px;
         color: white;
         text-decoration: none;
     }
-    .recursos-principal-subtitulo-verde {}
     .recursos-principal-subtitulo-verde a {
         color: white;
         font-weight: bold;
@@ -298,7 +297,21 @@ border-radius: 6px;
         display: flex;
         justify-content: space-around;
     }
-    .fale-conosco-principal-redes-sociais {}
+    footer {
+        background: linear-gradient(98.02deg, #33CA99 1.19%, #336A99 99.88%);
+        display: flex;
+    }
+    footer img {
+        width: 100px;
+    }
+    footer h2 {
+        font-size: 16px;
+        color: white;
+    }
+    footer p {
+        font-size: 14px;
+        color: white;
+    }
 }
 
 
