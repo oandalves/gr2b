@@ -1,0 +1,96 @@
+/* *header 1 */
+#header-site {
+    background-image: url(/img/sobre-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-site {
+    background: linear-gradient(90deg, #33C199 0%, #337399 98.98%);
+    mix-blend-mode: hard-light;
+}
+.nav-item:last-child{
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.row {
+    position: relative;
+}
+
+.bloco-img {
+    position: relative;
+    top: -110px;
+}
+
+
+/* *header  2*/
+#header-site2 {
+    background-image: url(/img/recursos-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.center2 {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 100px 0;
+}
+
+.center2 h2 {
+    font-weight: 800;
+}
+.center2 p{
+    width: 200px;
+}
+
+
+
+
+.rectangle {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.rectangle::before {
+    content: '';
+}
+
+.green-rectangle {
+    background-color: #52ca98;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    transform: translate(0%, 0%);
+}
+
+.green-rectangle strong {
+    padding-left: 20px;
+}
+
+.white-rectangle {
+    padding: 2em;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    line-height: 1.2;
+    color: #767473;
+}
+
+.white-rectangle p {
+    padding: 2em;
+}
+
+.recursos-imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

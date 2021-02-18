@@ -19,7 +19,62 @@ a,p,h1,h2,li,body{
     text-decoration: none;
 }
 
+/* *header 1 */
+#header-site {
+    background-image: url(/img/sobre-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.header-site {
+    background: linear-gradient(90deg, #33C199 0%, #337399 98.98%);
+    mix-blend-mode: hard-light;
+}
+.nav-item:last-child{
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.row {
+    position: relative;
+}
+
+.bloco-img {
+    position: relative;
+    top: -110px;
+}
+
+.center {
+    text-align: center;
+    color: white;
+    padding: 20px 0 150px 0;
+}
+
+.center h2 {
+    font-weight: 800;
+}
+/* *header  2*/
+#header-site2 {
+    background-image: url(/img/recursos-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.center2 {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 100px 0;
+}
+
+.center2 h2 {
+    font-weight: 800;
+}
+.center2 p{
+    width: 300px;
+    margin-top: 20px;
+}
 
 /* ?DEPOIMENTOS  */
 
@@ -121,6 +176,7 @@ a,p,h1,h2,li,body{
 .fale-conosco-p {
     color: #757575;
     line-height: 1.2;
+    margin: 20px 0;
 }
 
 .first-block-fale-conosco {
@@ -139,6 +195,11 @@ a,p,h1,h2,li,body{
 .block-fale-conosco a img {
     width: 45px;
     height: 45px;
+}
+@media (max-width:770px){
+    .img-fale-conosco{
+        display: none;
+    }
 }
 
 
@@ -200,6 +261,9 @@ text-decoration: none;
 }
 
 /* ?TRANSFORME SUA EMPRESA  */
+.row-content{
+    display: flex;
+}
 .transforme-sua-empresa {
     background-color: #336a99;
     padding: 1em 5em;
@@ -213,46 +277,22 @@ text-decoration: none;
     width: 50%;
     position: absolute;
 }
-.informacao-empresa p{
-    padding-bottom: 20px;
+.informacao-empresa h2{
+    font-weight: 900;
 }
-
+.informacao-empresa p{
+    margin:0px;
+    padding: 20px 0;
+    width: 400px;
+}
+@media (min-width:350px) and (max-width:990px){
+    .transforme-sua-empresa img{
+        display: none;
+    }
+}
 
 /* !SOBRE */
-/* *header  */
-#header-site {
-    background-image: url(/img/sobre-img.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-.header-site {
-    background: linear-gradient(90deg, #33C199 0%, #337399 98.98%);
-    mix-blend-mode: hard-light;
-}
-.nav-item:last-child{
-    border: 1px solid white;
-    border-radius: 6px;
-}
-
-.row {
-    position: relative;
-}
-
-.bloco-img {
-    position: relative;
-    top: -110px;
-}
-
-.center {
-    text-align: center;
-    color: white;
-    padding: 20px 0 150px 0;
-}
-
-.center h2 {
-    font-weight: 800;
-}
 
 /* *MAIN CONTENT  */
 .blockquote{
@@ -353,10 +393,14 @@ z-index: 1;
     text-decoration: none!important;
     background: #336a99!important;
 }
+#industria{
+    display: flex;
+    justify-content: space-around;
+}
 
 .planos {
     min-width: 250px;
-    margin: 0em 1em;
+    margin: 20px 1em;
     padding: 2em 0.5em;
     color: #757575;
     box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
@@ -419,6 +463,8 @@ border-radius: 6px;
 .diamant-plan {
     background-color: #52ca98;
     color: white;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+border-radius: 6px;
 }
 
 .diamant-plan h3 {
@@ -427,6 +473,7 @@ border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .diamant-plan .gostei-dessa {
@@ -465,7 +512,110 @@ border-radius: 6px;
     border: none;
 }
 
+@media (max-width:750px){
+    .planos ul{
+        padding: 0;
+        margin: 0;
+    }
+    .planos ul li{
+        text-align: center;
+    }
+}
 
+/* !RECURSOS  */
 
+.rectangle {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
+.rectangle::before {
+    content: '';
+}
 
+.green-rectangle {
+    background-color: #52ca98;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    transform: translate(0%, 0%);
+}
+
+.green-rectangle strong {
+    padding-left: 20px;
+}
+
+.white-rectangle {
+    padding: 2em;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    line-height: 1.2;
+    color: #767473;
+}
+
+.white-rectangle p {
+    padding: 2em;
+}
+
+.recursos-imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* !CLIENTES  */
+
+.clientes {
+    margin: 1em auto 1em;
+}
+
+.gray {
+    filter: gray;
+    /* IE6-9 */
+    filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    -ms-filter: grayscale(1);
+}
+
+/* !CONTATO  */
+
+.contato-p {
+    color: #878b8e;
+    font-weight: 500;
+    width: 400px;
+    
+}
+
+.enviar-mensagem {
+    background-color: #52ca98;
+    border-color: #52ca98;
+    padding: 0.5em 2em;
+}
+
+.form-control {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+
+.form-floating label {
+    color: #878b8e;
+}
+
+.form-select {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px 0;
+    color: #878b8e;
+}

@@ -1,0 +1,14 @@
+
+.clientes {
+    margin: 1em auto 1em;
+}
+
+.gray {
+    filter: gray;
+    /* IE6-9 */
+    filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    -ms-filter: grayscale(1);
+}
