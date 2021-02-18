@@ -297,12 +297,15 @@ border-radius: 6px;
     }
     footer {
         background: linear-gradient(98.02deg, #33CA99 1.19%, #336A99 99.88%);
+    }
+    .footer {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         padding: 20px;
     }
     .footer-bloco {
         margin: 0 10px;
+        justify-self: center;
     }
     .footer-bloco .fale-especialista {
         background-color: white;
