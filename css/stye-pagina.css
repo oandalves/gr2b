@@ -8,7 +8,6 @@ body {
  */
 
 @media (max-width: 579px) {
-    body {}
     nav {
         padding: 2em 2em;
     }
@@ -115,7 +114,6 @@ border-radius: 6px;
     .quadrado-bloco {
         display: flex;
     }
-    .quadrado-bloco span {}
     .retangulo-branco {
         box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
         border-radius: 6px;
@@ -300,6 +298,20 @@ border-radius: 6px;
     footer {
         background: linear-gradient(98.02deg, #33CA99 1.19%, #336A99 99.88%);
         display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .footer-bloco {
+        margin: 0 10px;
+    }
+    .footer-bloco .fale-especialista {
+        background-color: white;
+        border-radius: 10px;
+        color: #33ca99;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 5px;
     }
     footer img {
         width: 100px;
@@ -311,6 +323,7 @@ border-radius: 6px;
     footer p {
         font-size: 14px;
         color: white;
+        width: 150px;
     }
 }
 
