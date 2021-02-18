@@ -1,0 +1,275 @@
+/* *header  */
+
+#header-site {
+    background-image: url(/img/sobre-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-site {
+    background: linear-gradient(90deg, #33C199 0%, #337399 98.98%);
+    mix-blend-mode: hard-light;
+}
+
+.nav-item:last-child {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.row {
+    position: relative;
+}
+
+.bloco-img {
+    position: relative;
+    top: -110px;
+}
+
+.center {
+    text-align: center;
+    color: white;
+    padding: 20px 0 150px 0;
+}
+
+.center h2 {
+    font-weight: 800;
+}
+
+/** content  */
+
+.menu-industria-representantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.industria-representantes {
+    border: 1px solid #757575;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 260px;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+}
+
+.industria-representantes:hover {
+    color: #33C199;
+    background: white;
+    border-color: #33C199;
+}
+
+.btn {
+    background: #336a99;
+    color: white;
+    border-color: #336a99;
+}
+
+.industria-representantes a:link, .industria-representantes a:visited {
+    color: #336a99!important;
+    text-decoration: none!important;
+}
+
+.industria-representantes a:hover, .industria-representantes a:active {
+    color: white!important;
+    text-decoration: none!important;
+    background: #336a99!important;
+}
+
+.planos {
+    min-width: 250px;
+    margin: 0em 1em;
+    padding: 2em 0.5em;
+    color: #757575;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+}
+
+.planos h3 {
+    color: #336a99;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.plan-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.planos p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planos ul li{
+    font-size: 13px;
+}
+
+.gostei-dessa {
+    background-color: #52ca98;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.blue-bold{
+    font-weight: 900;
+    font-size: 40px;
+}
+.planos .preco{
+    font-weight: 400;
+    font-size: 25px;
+    align-items: baseline;
+    margin-bottom: 0;
+}
+
+.plans-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diamant-plan {
+    background-color: #52ca98;
+    color: white;
+}
+
+.diamant-plan h3 {
+    color: #f6ffbc;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diamant-plan .gostei-dessa {
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    color: #52ca98;
+    border: none;
+    text-decoration: none;
+}
+
+.pro-plan {
+    background-color: #336a99;
+    color: white;
+}
+
+.pro-plan h3 {
+    color: #f6ffbc;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-plan .gostei-dessa {
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    color: #52ca98;
+    border: none;
+}
+
+.transforme-sua-empresa {
+    background-color: #336a99;
+    padding: 1em 5em;
+    color: white;
+    border-radius: 1em;
+    margin: 4em 0em;
+    position: relative;
+}
+
+.transforme-sua-empresa img {
+    width: 50%;
+    position: absolute;
+}
+.fale-especialista {
+    background-color: white;
+    /*padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;*/
+    padding: 10px 25px;
+    border-radius: 0.5em;
+    color: #33ca99;
+    border: none;
+    text-decoration: none;
+}
+
+/* *footer  */
+footer {
+    background: linear-gradient(98.02deg, #33CA99 1.19%, #336A99 99.88%);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.footer h2 {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin: 10px 0;
+}
+
+.footer p, .footer p a{
+    font-size: 14px;
+line-height: 1.7;
+color: #FFFFFF;
+margin: 0;
+max-width: 200px;
+text-decoration: none;
+}
+.footer-bloco {
+    margin: 0 10px;
+    justify-self: center;
+}
+
+.footer-bloco .fale-especialista {
+    background-color: white;
+}
+.footer-bloco .fale-especialista {
+    background-color: white;
+   padding: 10px 40px;
+    border-radius: 10px;
+    color: #33ca99;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 25px 0;
+}
+.last{
+    margin-top: 10px;
+}
+.last h2{
+    margin-top: 20px;
+    text-align: right;
+}
+.last p{
+    text-align: right;
+}

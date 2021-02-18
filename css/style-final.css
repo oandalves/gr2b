@@ -1,0 +1,471 @@
+:root {
+    --quote-blue: #407BFF;
+    --green-main: #33CA99;
+    --texts: #757575;
+}
+a,p,h1,h2,li,body{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+}
+.fale-especialista {
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 0.5em;
+    color: #33ca99;
+    border: none;
+    text-decoration: none;
+}
+
+
+
+/* ?DEPOIMENTOS  */
+
+.bgcolor-azul {
+    background-color: #336a99;
+    color: #757575;
+}
+
+.depositions {
+    background: white;
+    padding: 1em 1em;
+    border-radius: 5px;
+    position: relative;
+    top: -50%;
+    left: 0%;
+    transform: translate(10px, 70px);
+}
+
+.message-deposition {
+    text-align: center;
+    padding: 0.5em 0.5em;
+}
+.title-deposition {
+    font-weight: 900;
+    font-size: 30px;
+    color: #33CA99;
+    margin-top: 50px;
+}
+.depoimentos-titles .linha-azul {
+    width: 150px;
+    border-bottom: 5px solid #336a99;
+    border-radius: 10px;
+}
+.depoimentos-titles p{
+  
+    margin-top: 10px;
+}
+
+/*
+* Configurações de slide depoimentos
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-slide img {
+    margin: 1em auto 2em!important;
+}
+
+
+
+/* ?MARCAS  */
+
+.marcas {
+    padding: 60px 0;
+    margin-top: 100px;
+}
+
+.marcas h4 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #757575;
+}
+
+/* ?FALE CONOSCO  */
+
+.fale-conosco {
+    background-color: #e5e5e5;
+}
+
+.fale-conosco h2 {
+    color: #33CA99;
+    font-weight: 900;
+}
+
+.fale-conosco-p {
+    color: #757575;
+    line-height: 1.2;
+}
+
+.first-block-fale-conosco {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.block-fale-conosco a {
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.block-fale-conosco a img {
+    width: 45px;
+    height: 45px;
+}
+
+
+/* ?FOOTER  */
+
+footer {
+    background: linear-gradient(98.02deg, #33CA99 1.19%, #336A99 99.88%);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.footer h2 {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin: 10px 0;
+}
+
+.footer p, .footer p a{
+    font-size: 14px;
+line-height: 1.7;
+color: #FFFFFF;
+margin: 0;
+max-width: 200px;
+text-decoration: none;
+}
+.footer-bloco {
+    margin: 0 10px;
+    justify-self: center;
+}
+
+.footer-bloco .fale-especialista {
+    background-color: white;
+}
+.footer-bloco .fale-especialista {
+    background-color: white;
+   padding: 10px 40px;
+    border-radius: 10px;
+    color: #33ca99;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 25px 0;
+}
+.last{
+    margin-top: 10px;
+}
+.last h2{
+    margin-top: 20px;
+    text-align: right;
+}
+.last p{
+    text-align: right;
+}
+
+/* ?TRANSFORME SUA EMPRESA  */
+.transforme-sua-empresa {
+    background-color: #336a99;
+    padding: 1em 5em;
+    color: white;
+    border-radius: 1em;
+    margin: 4em 0em;
+    position: relative;
+}
+
+.transforme-sua-empresa img {
+    width: 50%;
+    position: absolute;
+}
+.informacao-empresa p{
+    padding-bottom: 20px;
+}
+
+
+/* !SOBRE */
+/* *header  */
+#header-site {
+    background-image: url(/img/sobre-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-site {
+    background: linear-gradient(90deg, #33C199 0%, #337399 98.98%);
+    mix-blend-mode: hard-light;
+}
+.nav-item:last-child{
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.row {
+    position: relative;
+}
+
+.bloco-img {
+    position: relative;
+    top: -110px;
+}
+
+.center {
+    text-align: center;
+    color: white;
+    padding: 20px 0 150px 0;
+}
+
+.center h2 {
+    font-weight: 800;
+}
+
+/* *MAIN CONTENT  */
+.blockquote{
+    position: relative;
+}
+.blockquote p{
+    margin: 50px auto;
+    width: 500px;
+    font-weight: 900;
+    font-size: 35px;
+    color: var(--quote-blue);
+    line-height: 1.2;
+    z-index: 2;
+    position: relative;
+}
+.aspas-top{
+    width: 50px;
+position: absolute;
+top: -20px;
+left: -10px;
+z-index: 1;
+}
+.aspas-bottom{
+    width: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 70px;
+    transform: scaleX(-1);
+}
+
+.sobre-bloco {
+    position: relative;
+    margin-top: 100px;
+    
+}
+.h4 {
+    background: #33CA99;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    width: 350px;
+    padding: 10px 30px;
+    position: absolute;
+  left: -60px;
+}
+.about-text {
+    color: #757575;
+    padding: 90px 0;
+}
+
+
+/* !PLANOS  */
+/* *planos  */
+
+.menu-industria-representantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.industria-representantes {
+    border: 1px solid #757575;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 260px;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+}
+
+.industria-representantes:hover {
+    color: #33C199;
+    background: white;
+    border-color: #33C199;
+}
+
+.btn {
+    background: #336a99;
+    color: white;
+    border-color: #336a99;
+}
+
+.industria-representantes a:link, .industria-representantes a:visited {
+    color: #336a99!important;
+    text-decoration: none!important;
+}
+
+.industria-representantes a:hover, .industria-representantes a:active {
+    color: white!important;
+    text-decoration: none!important;
+    background: #336a99!important;
+}
+
+.planos {
+    min-width: 250px;
+    margin: 0em 1em;
+    padding: 2em 0.5em;
+    color: #757575;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+}
+
+.planos h3 {
+    color: #336a99;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.plan-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.planos p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planos ul li{
+    font-size: 13px;
+}
+
+.gostei-dessa {
+    background-color: #52ca98;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.blue-bold{
+    font-weight: 900;
+    font-size: 40px;
+}
+.planos .preco{
+    font-weight: 400;
+    font-size: 25px;
+    align-items: baseline;
+    margin-bottom: 0;
+}
+
+.plans-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diamant-plan {
+    background-color: #52ca98;
+    color: white;
+}
+
+.diamant-plan h3 {
+    color: #f6ffbc;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diamant-plan .gostei-dessa {
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    color: #52ca98;
+    border: none;
+    text-decoration: none;
+}
+
+.pro-plan {
+    background-color: #336a99;
+    color: white;
+}
+
+.pro-plan h3 {
+    color: #f6ffbc;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-plan .gostei-dessa {
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    color: #52ca98;
+    border: none;
+}
+
+
+
+
+

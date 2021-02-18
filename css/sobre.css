@@ -4,10 +4,8 @@
     --texts: #757575;
 }
 
-body {
-    background: violet;
-}
-
+/* !SOBRE */
+/* *header  */
 #header-site {
     background-image: url(/img/sobre-img.png);
     background-position: center;
@@ -18,6 +16,11 @@ body {
     background: linear-gradient(90deg, #33C199 0%, #337399 98.98%);
     mix-blend-mode: hard-light;
 }
+.nav-item:last-child{
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
 
 .row {
     position: relative;
@@ -38,15 +41,41 @@ body {
     font-weight: 800;
 }
 
-.blockquote {
+/* *MAIN CONTENT  */
+.blockquote{
+    position: relative;
+}
+.blockquote p{
+    margin: 50px auto;
+    width: 500px;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 35px;
     color: #407BFF;
     line-height: 1.2;
-    margin-top: 50px;
-    width: 470px;
+    z-index: 2;
+    position: relative;
+}
+.aspas-top{
+    width: 50px;
+position: absolute;
+top: -20px;
+left: -10px;
+z-index: 1;
+}
+.aspas-bottom{
+    width: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 70px;
+    transform: scaleX(-1);
 }
 
+
+.sobre-bloco {
+    position: relative;
+    margin-top: 100px;
+    
+}
 .h4 {
     background: #33CA99;
     box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
@@ -58,15 +87,185 @@ body {
     width: 350px;
     padding: 10px 30px;
     position: absolute;
-    left: -40px;
+  left: -60px;
 }
-
 .about-text {
     color: #757575;
     padding: 90px 0;
 }
 
-.sobre-bloco {
+
+/* depoimentos  */
+
+.bgcolor-azul {
+    background-color: #336a99;
+    color: #757575;
+}
+
+.depositions {
+    background: white;
+    padding: 1em 1em;
+    border-radius: 5px;
     position: relative;
+    top: -50%;
+    left: 0%;
+    transform: translate(10px, 70px);
+}
+
+.message-deposition {
+    text-align: center;
+    padding: 0.5em 0.5em;
+}
+.title-deposition {
+    font-weight: 900;
+    font-size: 30px;
+    color: #33CA99;
+    margin-top: 50px;
+}
+.depoimentos-titles .linha-azul {
+    width: 150px;
+    border-bottom: 5px solid #336a99;
+    border-radius: 10px;
+}
+.depoimentos-titles p{
+  
+    margin-top: 10px;
+}
+
+/*
+* Configurações de slide depoimentos
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-slide img {
+    margin: 1em auto 2em!important;
+}
+
+/* marcas */
+
+.marcas {
+    padding: 60px 0;
     margin-top: 100px;
+}
+
+.marcas h4 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    color: #757575;
+}
+
+/* FALE CONOSCO  */
+
+.fale-conosco {
+    background-color: #e5e5e5;
+}
+
+.fale-conosco h2 {
+    color: #33CA99;
+    font-weight: 900;
+}
+
+.fale-conosco-p {
+    color: #757575;
+    line-height: 1.2;
+}
+
+.first-block-fale-conosco {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.block-fale-conosco a {
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.block-fale-conosco a img {
+    width: 45px;
+    height: 45px;
+}
+
+/* FOOTER  */
+
+footer {
+    background: linear-gradient(98.02deg, #33CA99 1.19%, #336A99 99.88%);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.footer h2 {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin: 10px 0;
+}
+
+.footer p, .footer p a{
+    font-size: 14px;
+line-height: 1.7;
+color: #FFFFFF;
+margin: 0;
+max-width: 200px;
+text-decoration: none;
+}
+.footer-bloco {
+    margin: 0 10px;
+    justify-self: center;
+}
+
+.footer-bloco .fale-especialista {
+    background-color: white;
+}
+.footer-bloco .fale-especialista {
+    background-color: white;
+   padding: 10px 40px;
+    border-radius: 10px;
+    color: #33ca99;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 25px 0;
+}
+.last{
+    margin-top: 10px;
+}
+.last h2{
+    margin-top: 20px;
+    text-align: right;
+}
+.last p{
+    text-align: right;
 }

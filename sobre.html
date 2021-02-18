@@ -12,7 +12,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/style-final.css">
 
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick-theme.css">
@@ -56,7 +56,7 @@
                                 <a class="nav-link mx-3" href="clientes.html">Clientes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  mx-3 fale-conosco" href="contato.html" role="button">Fale Conosco</a>
+                                <a class="nav-link mx-3" href="contato.html" role="button">Fale Conosco</a>
                             </li>
                         </ul>
                     </div>
@@ -71,16 +71,22 @@
         <div class="row">
             <div class="col-md-6 bloco-img">
                 <img src="img/sobre-block.png" alt="Imagem de sobre a GR2B" class="img-fluid img-thumbnail">
-                <blockquote class="blockquote">"Viemos para proporcionar tecnologia inovadora que transforme as empresas, apliando suas vendas e reduzindo seus custos."
+                
+                <blockquote class="blockquote">
+                    <img class="aspas-top" src="./img/aspas.svg" alt="">
+                  <p>"Viemos para proporcionar tecnologia inovadora que transforme as empresas, apliando suas vendas e reduzindo seus custos."</p>  
+                    <img class="aspas-bottom"src="./img/aspas.svg" alt="">
                 </blockquote>
+               
             </div>
             <div class="col-md-6">
                 <div class="sobre-bloco">
                     <h4 class="h4">A sua plataforma</h4>
                     <p class="about-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a sem quis augue placerat vestibulum. Phasellus blandit posuere urna id consequat. Quisque nec posuere odio. Morbi ullamcorper, arcu quis iaculis cursus, magna neque tristique elit, ac aliquet
-                        turpis eros at est. Curabitur ut augue scelerisque, dapibus orci non, ultricies nulla. Curabitur molestie nunc non placerat pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque
-                        ut bibendum odio, id cursus mauris. In ullamcorper nibh orci, eu mattis lacus iaculis quis. Duis eu mauris diam. Vestibulum et blandit nisi. Sed eu lectus porttitor, porta dolor sed, euismod leo. Morbi pharetra id tortor vel vulputate.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacus elit, aliquet a bibendum auctor, vehicula nec quam. In gravida orci nec magna interdum, quis congue quam eleifend. Sed a volutpat erat. Nam fermentum commodo convallis. Aliquam bibendum
+                        dictum massa vitae dictum. Maecenas sed felis id tellus commodo rhoncus et tempus ex. Integer venenatis sit amet augue vel facilisis. Cras eleifend ante sed est pellentesque, et dictum turpis efficitur. Donec a tincidunt ipsum.
+                        Morbi pharetra semper dictum. Curabitur in sapien placerat velit feugiat vulputate vel ac turpis. Fusce aliquam odio quis neque sagittis, vitae iaculis nisl condimentum. Mauris hendrerit molestie diam ac elementum. Pellentesque
+                        elementum nunc molestie vehicula placerat. Proin egestas dui ut velit luctus luctus. Suspendisse congue est nibh, in tempor erat blandit quis.
                     </p>
                 </div>
 
@@ -91,10 +97,10 @@
     <section class="container-fluid bgcolor-azul">
         <div class="container depositions shadow ">
             <div class="row ">
-                <div class="col-md-3" style="padding-left: 2.5em;">
-                    <h2 class="text-uppercase text-green fw-bold mb-4 title-deposition">Depoimentos</h2>
+                <div class="col-md-3 depoimentos-titles" style="padding-left: 2.5em;">
+                    <h2 class="text-uppercase text-green mb-4 title-deposition">Depoimentos</h2>
                     <div class="linha-azul "></div>
-                    Mensagem dos nossos <br> parceiros e clientes
+                   <p> Mensagem dos nossos <br> parceiros e clientes</p>
                 </div>
                 <div class="col-md-9 regular slider ">
                     <div style="width: 300px; " class="shadow message-deposition ">
@@ -143,7 +149,7 @@
             </div>
         </div>
     </section>
-    <section class="container mx-auto brand ">
+    <section class="container mx-auto brand marcas">
         <h4>Algumas das marcas que confiam e indicam a GR2B</h4>
         <div class="row regular1 slider brand-icons ">
             <div>
@@ -175,31 +181,32 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid bgcolor-bege pt-5">
+    <!-- fale conosco  -->
+    <section class="container-fluid pt-5 fale-conosco">
         <div class="container mx-auto py-5 ">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="text-uppercase text-green fw-bold mb-4 ">Fale conosco</h2>
+                    <h2 class="text-uppercase text-green mb-4 ">Fale conosco</h2>
                     <div class="linha-azul "></div>
-                    <p class=" ">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
-                    <div class="d-flex flex-row ">
-                        <div>
+                    <p class="fale-conosco-p">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
+                    <div class="d-flex flex-row first-block-fale-conosco">
+                        <div class="block-fale-conosco">
                             <a href="#" target="_blank">
-                                <img src="img/wpp.png " alt="Enviar mensagem para nosso whatsapp " class="inline-flex img-fluid white-square shadow m-xl-4 bg-white rounded ">
+                                <img src="img/whatsapp.svg " alt="Enviar mensagem para nosso whatsapp " class="inline-flex img-fluid white-square m-xl-4  rounded ">
                             </a>
                         </div>
-                        <div>
+                        <div class="block-fale-conosco">
                             <a href="#" target="_blank">
-                                <img src="img/email.png " alt="Encaminhar email " class="inline-flex img-fluid white-square shadow m-xl-4 bg-white rounded ">
+                                <img src="img/email.svg " alt="Encaminhar email " class="inline-flex img-fluid white-square m-xl-4  rounded ">
                             </a>
                         </div>
-                        <div>
+                        <div class="block-fale-conosco">
                             <a href="#" target="_blank">
-                                <img src="img/chat.png " alt="Entrar em contato pelo chat " class="inline-flex img-fluid white-square shadow m-xl-4 bg-white rounded ">
+                                <img src="img//chat.svg" alt="Entrar em contato pelo chat " class="inline-flex img-fluid white-square m-xl-4  rounded ">
                             </a>
                         </div>
                     </div>
-                    <p class=" ">Também estamos nas redes sociais</p>
+                    <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
                     <a href="#" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #336a99;"></i></a>
                     <a href="#" target="_blank" style="margin-right: 2em; margin-left: 2em;"><i class="fab fa-instagram fa-2x" style="color: #336a99;"></i></a>
                     <a href="#" target="_blank"><i class="fab fa-youtube fa-2x" style="color: #336a99;"></i></a>
@@ -210,59 +217,36 @@
             </div>
         </div>
     </section>
-    <footer class="gradient text-white ">
-        <div class="container mx-auto py-5">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="img/logo-gr2b.png " class="img-fluid mb-3 d-flex" alt="Logo da GR2B " width="150px ">
-                    <p><strong>Onde nos encontrar</strong></p>
-                    <p>Rua Cruz de Abreu, 299 - Centro <br> Montes Claros - MG</p>
-                </div>
-                <div class="col-md-3">
-                    <h5>Institucional</h5>
-                    <ul class="list-unstyled text-small ">
-                        <li><a class="link-light " href="index.html ">Home</a></li>
-                        <li><a class="link-light " href="sobre.html ">Sobre nós</a></li>
-                        <li><a class="link-light " href="clientes.html ">Clientes</a></li>
-                        <li><a class="link-light " href="vagas.html ">Vagas</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5>Produtos</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="link-light " href="plataforma.html">Plataforma</a></li>
-                        <li><a class="link-light " href="recursos.html ">Recursos</a></li>
-                        <li><a class="link-light " href="planos.html ">Planos</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <a class="fale-especialista mb-2 float-end" href="contato.html">
-                        <strong>Fale com um Especialista</strong>
-                    </a>
-                    <strong class="float-end">Central de atendimento</strong>
-                    <p class="float-end ">+ 55 38 4444-4444</p>
-                </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-bloco">
+                <img src="/img/logo-gr2b.png" alt="">
+                <h2>Onde nos encontrar</h2>
+                <p>Rua Onze de Abril, 999 - Centro Montes Claros - MG </p>
+              
             </div>
-            <div class="row">
-                <hr class="linhabranca">
-                <div class="row">
-                    <div class="col-md-6 float-start">
-                        <small class="d-block mb-3 ">&copy; 2020-2021 GR2B. Todos os direitos reservados.</small>
-                    </div>
-                    <div class="col-md-6" style="padding-right: 0px;">
-                        <div class="float-end">
-                            feito por:
-                            <a href="https://ecommercenet.com.br/" target="_blank">
-                                <img src="img/ecommerce.png" class="img-fluid m-2" alt="logo ecommerce-net">
-                            </a>
-                            <a href="#" target="_blank">
-                                <img src="img/saintz.png" class="img-fluid mt-1" alt="logo Saintz">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="footer-bloco">
+                <h2>Institucional</h2>
+                <p><a href="">Home</a></p>
+                <p><a href="">Sobre nós</a></p>
+                <p><a href="">Clientes</a></p>
+                <p><a href="">Vagas</a></p>
+            </div>
+            <div class="footer-bloco">
+                <h2>Produtos</h2>
+                <p><a href="">Plataforma</a></p>
+                <p><a href="">Recursos</a></p>
+                <p><a href="">Planos</a></p>
+            </div>
+            <div class="footer-bloco last">
+                <a href="#" class="fale-especialista">Fale com um especialista</a>
+                <h2>Central de atendimento</h2>
+                <p>+ 55 38 4444-4444</p>
             </div>
         </div>
+
+
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
