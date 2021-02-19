@@ -806,28 +806,28 @@ header {
     margin-top: 1em;
 }
 
+.header-main-titulo {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.header-main-subtitulo {
+    font-size: 150%;
+    max-width: 350px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .link-menu {
     padding: 0 10px;
 }
 
 @media (min-width: 400px) {
-    .h-menu {
-        padding: 20px 50px;
-    }
-    .h-menu-nav {
-        display: flex;
-        margin: 0 auto;
-    }
-    @media (min-width: 400px) {
-        .h-menu {
-            margin: 0 20px;
-        }
-    }
+    @media (min-width: 400px) {}
     .header-main {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding: 20px;
         color: white;
     }
     .header-main-content h1 {
@@ -1108,5 +1108,4 @@ header {
         color: white;
         margin-top: 3em;
     }
-    margin-top: 3em;
 }
