@@ -26,16 +26,25 @@
                 $("#distribuidora").show();
                 $("#industria").hide();
                 $("#representante").hide();
+                $(".distribuidora").addClass("area-ativa")
+                $(".industria").removeClass("area-ativa")
+                $(".representante").removeClass("area-ativa")
                 console.log('oi');
             } else if ($type == 'industria') {
                 $("#distribuidora").hide();
                 $("#industria").show();
                 $("#representante").hide();
+                $(".distribuidora").removeClass("area-ativa")
+                $(".industria").addClass("area-ativa")
+                $(".representante").removeClass("area-ativa")
                 console.log('oi1');
             } else {
                 $("#distribuidora").hide();
                 $("#industria").hide();
                 $("#representante").show();
+                $(".distribuidora").removeClass("area-ativa")
+                $(".industria").removeClass("area-ativa")
+                $(".representante").addClass("area-ativa")
                 console.log('oi2');
             }
 
@@ -43,18 +52,27 @@
                 $("#distribuidora").show();
                 $("#industria").hide();
                 $("#representante").hide();
+                $(".distribuidora").addClass("area-ativa")
+                $(".industria").removeClass("area-ativa")
+                $(".representante").removeClass("area-ativa")
             });
 
             $(".industria").click(function() {
                 $("#distribuidora").hide();
                 $("#industria").show();
                 $("#representante").hide();
+                $(".distribuidora").removeClass("area-ativa")
+                $(".industria").addClass("area-ativa")
+                $(".representante").removeClass("area-ativa")
             });
 
             $(".representante").click(function() {
                 $("#distribuidora").hide();
                 $("#industria").hide();
                 $("#representante").show();
+                $(".distribuidora").removeClass("area-ativa")
+                $(".industria").removeClass("area-ativa")
+                $(".representante").addClass("area-ativa")
             });
         });
     </script>
@@ -115,9 +133,9 @@
         <div class="row ecommerce-title">
             <div class="col-md-6">Qual sua área de interesse?</div>
             <div class="col-md-6 menu-ecommerce">
-                <a class="distribuidora">Distribuídoras</a>
-                <a class="industria">Indústria</a>
-                <a class="representante">Representantes</a>
+                <a class="distribuidora ecommerce-link">Distribuidoras</a>
+                <a class="industria ecommerce-link">Indústria</a>
+                <a class="representante ecommerce-link">Representantes</a>
             </div>
         </div>
         <div class="linha-cinza"></div>
