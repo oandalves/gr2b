@@ -835,28 +835,28 @@ header {
     margin-top: 1em;
 }
 
+.header-main-titulo {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.header-main-subtitulo {
+    font-size: 150%;
+    max-width: 350px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .link-menu {
     padding: 0 10px;
 }
 
 @media (min-width: 400px) {
-    .h-menu {
-        padding: 20px 50px;
-    }
-    .h-menu-nav {
-        display: flex;
-        margin: 0 auto;
-    }
-    @media (min-width: 400px) {
-        .h-menu {
-            margin: 0 20px;
-        }
-    }
+    @media (min-width: 400px) {}
     .header-main {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding: 20px;
         color: white;
     }
     .header-main-content h1 {
@@ -1141,136 +1141,5 @@ header {
     .recursos-quadrado-verde h5 {
         color: white;
         margin-top: 3em;
-    }
-}
-
-/* !ECOMERCE  */
-
-.ecommerce {
-    margin: 5em auto 1em;
-}
-
-/* RECURSOS INDEX  */
-
-.ecommerce h3 {
-    margin-top: 1em;
-    color: #52ca98;
-    font-weight: bold;
-    margin-bottom: 0.5em;
-}
-
-.recursos-quadrados {
-    margin: 0.3em;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 0.5em auto 0.5em;
-    width: 200px;
-    height: 200px;
-}
-
-.ecommerce-title {
-    margin-top: 3em;
-    padding-left: 1em;
-}
-
-.recursos-quadrados img {
-    margin-top: 2em;
-}
-
-.linha-cinza {
-    width: 100%;
-    margin: 1em 0em;
-    border-bottom: 1px solid black;
-}
-
-.recursos-quadrados h5 {
-    color: #52ca98;
-    margin-top: 1em;
-}
-
-.menu-ecommerce {
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
-    cursor: pointer;
-}
-
-.recursos-quadrado-verde {
-    margin: 0.5em;
-    background-color: #52ca98;
-    border-radius: 10px;
-    text-align: center;
-    padding: 0.5em auto 0.5em;
-    width: 200px;
-    height: 200px;
-}
-
-.ecommerce-link {
-    margin-left: 2em;
-    color: black;
-    text-decoration: none;
-}
-
-.menu-ecommerce a:hover, .menu-ecommerce a:active {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.recursos-quadrado-verde h5 {
-    color: white;
-    margin-top: 3em;
-}
-
-.ecommerce-image-01 {
-    position: relative;
-    top: -10%;
-    left: 0%;
-    transform: translate(0px, 0px);
-}
-
-.ecommerce-image-02 {
-    position: relative;
-    left: 0%;
-    bottom: 5%;
-    transform: translate(0px, 0px);
-}
-
-.ecommerce-bege-text {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.text-green-ecommerce {
-    color: #52ca98;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-}
-
-.menu-ecommerce .area-ativa {
-    color: var(--green-main);
-    border-bottom: var(--green-main);
-}
-
-.area-ativa::after {
-    content: "";
-    width: 20px;
-    height: 5px;
-    background: var(--green-main);
-    margin: 0 auto;
-    display: block;
-}
-@media (max-width:770px){
-    .ecommerce-title{
-        text-align: center;
-    }
-    .menu-ecommerce{
-        justify-content: space-between;
-    }
-    .img-ecommerce{
-        display: none;
-    }
-    .ecommerce-image-01, .ecommerce-image-02{
-        display: none;
     }
 }
