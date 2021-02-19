@@ -20,6 +20,24 @@ a, p, h1, h2, li, body {
     border: none;
     text-decoration: none;
 }
+.fale-especialista:link, .fale-especialista:visited {
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 10px;
+    color: #33ca99;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fale-especialista:hover, .fale-especialista:active {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
 
 /* *header 1 */
 
@@ -250,9 +268,11 @@ nav img {
 
 .block-fale-conosco a {
     padding: 40px 20px;
-    background: white;
     box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+}
+.block-fale-conosco a:hover{
+    border: 1px solid var(--green-main);
 }
 
 .block-fale-conosco a img {
@@ -327,22 +347,7 @@ footer {
     color: whitesmoke;
 }
 
-.fale-especialista:link, .fale-especialista:visited {
-    background-color: white;
-    padding: 1em 2em;
-    border-radius: 10px;
-    color: #33ca99;
-    font-weight: bold;
-    text-decoration: none;
-}
 
-.fale-especialista:hover, .fale-especialista:active {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
 
 .last {
     margin-top: 10px;
@@ -1125,6 +1130,11 @@ header {
         width: 200px;
         height: 200px;
     }
+    .recursos-quadrado-verde:hover {
+        border: 2px solid white;
+        transition: 0.5s;
+    }
+    
     .recursos-quadrado-verde a {
         text-decoration: none;
     }
