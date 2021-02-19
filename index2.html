@@ -8,12 +8,14 @@
     <title>GR2B | Página principal</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-final.css">
 
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick-theme.css">
@@ -22,76 +24,78 @@
 </head>
 
 <body>
-    <div class="bg-triangulo">
-        <div id="imagem-logo">
-            <div class="imagem-logo">
-                <div class="container mx-auto">
-                    <nav class="navbar navbar-expand-lg navbar-dark py-4">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="img/logo-gr2b.png" class="img-fluid" alt="Logo GR2B" style="width: 70%;">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
-                                <li class="nav-item dropdown  mx-3">
-                                    <a class="nav-link dropdown-toggle" href="ecommerce.html" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        E-commerce B2B
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item"
-                                                href="ecommerce.html?type=distribuidora">Distribuídoras</a></li>
-                                        <li><a class="dropdown-item" href="ecommerce.html?type=industria">Indústria</a>
-                                        </li>
-                                        <li><a class="dropdown-item"
-                                                href="ecommerce.html?type=representante">Representantes</a></li>
-                                    </ul>
+    <header>
+        <div class="bg-triangulo"></div>
+        <div class="header-simbol-bg">
+            <nav class="navbar navbar-expand-xl navbar-dark py-4 h-menu">
+                <a class="navbar-brand" href="index2.html">
+                    <img src="img/logo-gr2b.png" class="img-fluid" alt="Logo GR2B" style="width: 70%;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
+                        <li class="nav-item dropdown  mx-3">
+                            <a class="nav-link dropdown-toggle" href="ecommerce.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                E-commerce B2B
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="ecommerce.html?type=distribuidora">Distribuídoras</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link mx-3" href="sobre.html">Sobre a GR2B</a>
+                                <li><a class="dropdown-item" href="ecommerce.html?type=industria">Indústria</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link mx-3" href="planos.html">Planos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link mx-3" href="recursos.html">Recursos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link mx-3" href="clientes.html">Clientes</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link  mx-3 fale-conosco" href="contato.html" role="button">Fale
-                                        Conosco</a>
+                                <li><a class="dropdown-item" href="ecommerce.html?type=representante">Representantes</a>
                                 </li>
                             </ul>
-                        </div>
-                    </nav>
-                    <div class="row text-white">
-                        <div class="col-md-5">
-                            <h2 class="fw-bold display-3 mt-5 mb-5">Tenha seu <br> E-commerce B2B</h2>
-                            <h3 class="py-4 mb-5">Aumente o desempenho <br> de sua equipe comercial <br> vendendo 24
-                                horas por dia <br> de forma inteligente e eficaz.
-                            </h3>
-                            <button class="fale-especialista shadow">
-                                <strong>Fale com um Especialista</strong>
-                            </button>
-                        </div>
-                        <div class="col-md-7 imagem-index" style="z-index: 2;">
-                            <img src="img/tela-sistema-gr2b.png" width="100%" class="img-fluid"
-                                alt="Imagem com tela do sistema GR2b">
-                            <img src="img/tela-sistema-gr2b-produtos.png" width="100%" class="img-fluid"
-                                alt="Imagem com tela do sistema GR2b">
-                        </div>
-                    </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre a GR2B</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="planos.html">Planos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="recursos.html">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="clientes.html">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  mx-3" href="contato.html" role="button">Fale
+                                Conosco</a>
+                        </li>
+                    </ul>
                 </div>
-                <div id="triangulo-para-cima"></div>
+            </nav>
+
+            <div class="header-main">
+                <div class="header-main-content">
+                    <h1>Tenha seu<br> E-commerce B2B</h1>
+                    <p>Aumente o desempenho
+                        de sua equipe comercial
+                        vendendo 24 horas por dia
+                        de forma inteligente e eficaz.</p>
+                    <a class="btn-white" href="">Fale com um Especialista</a>
+                </div>
+
+                <div class="header-imgs">
+                    <img src="/img/tela-sistema-gr2b.png" alt="">
+                    <img src="/img/tela-sistema-gr2b-produtos.png" alt="">
+                </div>
             </div>
+
+
         </div>
-    </div>
+
+        </div>
+
+        <div id="triangulo-para-cima"></div>
+
+    </header>
     <div class="container mx-auto">
         <div class="row">
             <div class="col-md-6 index-space index-padding">
@@ -112,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 index-content-img">
                 <img src="img/imagem01.png" class="img-fluid" alt="Imagem de construção de blocos por pessoas."
                     width="85%">
             </div>
@@ -150,7 +154,7 @@
             </div>
         </div>
         <div class="row ">
-            <div class="col-md-6">
+            <div class="col-md-6 index-content-img">
                 <img src="img/imagem02.png" class="img-fluid" alt="Imagem de construção de blocos por pessoas."
                     width="90%">
             </div>
@@ -213,19 +217,20 @@
             </div>
         </div>
     </div>
-    <section class="container mx-auto py-5 transforme-sua-empresa ">
-        <div class="row ">
-            <div class="col-md-6 informacao-empresa ">
-                <h2 class="fw-bold text-wrap ">Transforme sua empresa: <br> venda mais e reduza custos.</h2>
-                <p class="fw-bolder text-wrap ">Fale com um de nossos especialistas e saiba como utilizar a nossa
-                    tecnologia para impulsionar os seus negócios.</p>
+    <section class="container mx-auto py-5 transforme-sua-empresa">
+        <div class="row-content">
+            <div class=" informacao-empresa">
+                <h2 class="">Transforme sua empresa: <br> venda mais e reduza custos.</h2>
+                <p class="">Fale com um de nossos especialistas e saiba como utilizar a nossa tecnologia para
+                    impulsionar os seus negócios.</p>
                 <a class="fale-especialista" href="contato.html">
                     <strong>Fale com um Especialista</strong>
                 </a>
             </div>
-            <div class="col-md-6 imagem-index">
-                <img src="img/tela-sistema-gr2b.png " class="img-fluid " alt="Imagem de funcionamento do sistema GR2B ">
+            <div class="img-transforme">
+                <img src="img/tela-sistema-gr2b.png" class="img-fluid" alt="Imagem de funcionamento do sistema GR2B">
             </div>
+
         </div>
     </section>
     <section class="container mx-auto py-5">
@@ -260,13 +265,13 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid bgcolor-azul ">
+    <section class="container-fluid bgcolor-azul">
         <div class="container depositions shadow ">
             <div class="row ">
-                <div class="col-md-3" style="padding-left: 2.5em;">
-                    <h2 class="text-uppercase text-green fw-bold mb-4 title-deposition">Depoimentos</h2>
+                <div class="col-md-3 depoimentos-titles" style="padding-left: 2.5em;">
+                    <h2 class="text-uppercase text-green mb-4 title-deposition">Depoimentos</h2>
                     <div class="linha-azul "></div>
-                    Mensagem dos nossos <br> parceiros e clientes
+                    <p> Mensagem dos nossos <br> parceiros e clientes</p>
                 </div>
                 <div class="col-md-9 regular slider ">
                     <div style="width: 300px; " class="shadow message-deposition ">
@@ -333,7 +338,8 @@
             </div>
         </div>
     </section>
-    <section class="container mx-auto brand ">
+
+    <section class="container mx-auto brand marcas">
         <h4>Algumas das marcas que confiam e indicam a GR2B</h4>
         <div class="row regular1 slider brand-icons ">
             <div>
@@ -365,102 +371,77 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid bgcolor-bege pt-5 ">
+    <!-- fale conosco  -->
+    <section class="fale-conosco">
         <div class="container mx-auto py-5 ">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="text-uppercase text-green fw-bold mb-4" style="margin-left: 0.7em;">Fale conosco</h2>
-                    <div class="linha-azul " style="margin-left: 1.5em;"></div>
-                    <p class=" " style="margin-left: 1.5em;">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater
-                        um papo?</p>
-                    <div class="d-flex flex-row ">
-                        <div>
+                    <h2 class="text-uppercase text-green mb-4 ">Fale conosco</h2>
+                    <div class="linha-azul "></div>
+                    <p class="fale-conosco-p">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
+                    <div class="first-block-fale-conosco">
+                        <div class="block-fale-conosco">
                             <a href="#" target="_blank">
-                                <img src="img/wpp.png " alt="Enviar mensagem para nosso whatsapp "
-                                    class="inline-flex img-fluid white-square shadow m-xl-4 bg-white rounded ">
+                                <img src="img/whatsapp.svg " alt="Enviar mensagem para nosso whatsapp "
+                                 >
                             </a>
                         </div>
-                        <div>
+                        <div class="block-fale-conosco">
                             <a href="#" target="_blank">
-                                <img src="img/email.png " alt="Encaminhar email "
-                                    class="inline-flex img-fluid white-square shadow m-xl-4 bg-white rounded ">
+                                <img src="img/email.svg" alt="Encaminhar email "
+                                    >
                             </a>
                         </div>
-                        <div>
+                        <div class="block-fale-conosco">
                             <a href="#" target="_blank">
-                                <img src="img/chat.png " alt="Entrar em contato pelo chat "
-                                    class="inline-flex img-fluid white-square shadow m-xl-4 bg-white rounded ">
+                                <img src="img/chat.svg" alt="Entrar em contato pelo chat "
+                                    >
                             </a>
                         </div>
                     </div>
-                    <p class=" " style="margin-left: 1.5em;">Também estamos nas redes sociais</p>
-                    <div style="margin-left: 1.5em;">
-                        <a href="#" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #336a99;"></i></a>
-                        <a href="#" target="_blank" style="margin-right: 2em; margin-left: 2em;"><i
-                                class="fab fa-instagram fa-2x" style="color: #336a99;"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-youtube fa-2x" style="color: #336a99;"></i></a>
-                    </div>
+                    <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
+                    <a href="#" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #336a99;"></i></a>
+                    <a href="#" target="_blank" style="margin-right: 2em; margin-left: 2em;"><i
+                            class="fab fa-instagram fa-2x" style="color: #336a99;"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube fa-2x" style="color: #336a99;"></i></a>
                 </div>
                 <div class="col-md-6 ">
-                    <img src="img/fale_conosco.png " class="img-fluid "
+                    <img src="img/fale_conosco.png " class="img-fluid img-fale-conosco"
                         alt="Imagem de notificação de mensagem nos dispositivos conectados a plataforma. ">
                 </div>
             </div>
         </div>
     </section>
-    <footer class="gradient text-white ">
-        <div class="container mx-auto py-5">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="img/logo-gr2b.png " class="img-fluid mb-3 d-flex" alt="Logo da GR2B " width="150px ">
-                    <p><strong>Onde nos encontrar</strong></p>
-                    <p>Rua Cruz de Abreu, 299 - Centro <br> Montes Claros - MG</p>
-                </div>
-                <div class="col-md-3 imagem-index">
-                    <h5>Institucional</h5>
-                    <ul class="list-unstyled text-small ">
-                        <li><a class="link-light " href="index.html ">Home</a></li>
-                        <li><a class="link-light " href="sobre.html ">Sobre nós</a></li>
-                        <li><a class="link-light " href="clientes.html ">Clientes</a></li>
-                        <li><a class="link-light " href="vagas.html ">Vagas</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 imagem-index">
-                    <h5>Produtos</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="link-light " href="plataforma.html">Plataforma</a></li>
-                        <li><a class="link-light " href="recursos.html ">Recursos</a></li>
-                        <li><a class="link-light " href="planos.html ">Planos</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <a class="fale-especialista mb-2 float-end" href="contato.html">
-                        <strong>Fale com um Especialista</strong>
-                    </a>
-                    <strong class="float-end">Central de atendimento</strong>
-                    <p class="float-end ">+ 55 38 4444-4444</p>
-                </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-bloco">
+                <img src="/img/logo-gr2b.png" alt="">
+                <h2>Onde nos encontrar</h2>
+                <p>Rua Onze de Abril, 999 - Centro Montes Claros - MG </p>
+
             </div>
-            <div class="row">
-                <hr class="linhabranca">
-                <div class="row">
-                    <div class="col-md-6 float-start">
-                        <small class="d-block mb-3 ">&copy; 2020-2021 GR2B. Todos os direitos reservados.</small>
-                    </div>
-                    <div class="col-md-6" style="padding-right: 0px;">
-                        <div class="float-end">
-                            feito por:
-                            <a href="https://ecommercenet.com.br/" target="_blank">
-                                <img src="img/ecommerce.png" class="img-fluid m-2" alt="logo ecommerce-net">
-                            </a>
-                            <a href="#" target="_blank">
-                                <img src="img/saintz.png" class="img-fluid mt-1" alt="logo Saintz">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="footer-bloco">
+                <h2>Institucional</h2>
+                <p><a href="">Home</a></p>
+                <p><a href="">Sobre nós</a></p>
+                <p><a href="">Clientes</a></p>
+                <p><a href="">Vagas</a></p>
+            </div>
+            <div class="footer-bloco">
+                <h2>Produtos</h2>
+                <p><a href="">Plataforma</a></p>
+                <p><a href="">Recursos</a></p>
+                <p><a href="">Planos</a></p>
+            </div>
+            <div class="footer-bloco last">
+                <a href="#" class="fale-especialista">Fale com um especialista</a>
+                <h2>Central de atendimento</h2>
+                <p>+ 55 38 4444-4444</p>
             </div>
         </div>
+
+
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js "
