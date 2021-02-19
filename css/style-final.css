@@ -325,6 +325,24 @@ footer {
     float: right;
 }
 
+@media (min-width:350px) and (max-width:830px){
+    .last h2 {
+        text-align: center;
+    }
+    
+    .last p {
+        text-align: center;
+    }
+    .footer-bloco>p{
+        margin: 0 auto;
+    }
+    .last{
+        margin: 20px 0;
+    }
+    
+}
+
+
 /* ?TRANSFORME SUA EMPRESA  */
 
 .row-content {
@@ -362,6 +380,11 @@ footer {
     .rodape {
         text-align: center;
     }
+    .informacao-empresa{
+        margin: 0 auto;
+        text-align: center;
+    }
+   
 }
 
 /* !SOBRE */
@@ -612,6 +635,18 @@ footer {
     border-radius: 0.5em;
     color: #52ca98;
     border: none;
+}
+.pro-plan .gostei-dessa:hover, .diamant-plan .gostei-dessa:hover{
+background-color: transparent;
+color: white;
+border: 1px solid white;
+transition: 0.5s;
+}
+.gostei-dessa:hover{
+    background-color: white;
+    border: 1px solid var(--green-main);
+    color: var(--green-main);
+    transition: 0.5s;
 }
 
 @media (max-width:750px) {
