@@ -47,6 +47,50 @@ body {
     margin-left: 20px;
 }
 
+nav img {
+    width: 60%;
+    padding-left: 0.5em;
+}
+
+.navbar {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.nav-item,
+.nav-item:link,
+.nav-ite:visited {
+    color: white;
+}
+
+.nav-item:hover,
+.nav-item:active {
+    text-shadow: 0 0 1px #fff;
+    color: whitesmoke;
+}
+
+.nav-item {
+    margin-left: 1em;
+}
+
+.dropdown-menu {
+    border: 0px solid transparent;
+    background: transparent;
+}
+
+.dropdown-item,
+.dropdown-item:link,
+.dropdown-menu:visited {
+    color: white;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active {
+    text-shadow: 0 0 1px #fff;
+    color: whitesmoke;
+    background: transparent;
+}
+
 .row {
     position: relative;
     justify-content: space-around;
@@ -139,6 +183,10 @@ body {
     .title-deposition {
         font-size: 20px;
     }
+    nav img {
+        width: 40%;
+        padding-left: 0.5em;
+    }
 }
 
 
@@ -194,8 +242,9 @@ body {
 
 /* ?FALE CONOSCO  */
 
-.fale-conosco {
-    background-color: #e5e5e5;
+.fale-conosco:link,
+.fale-conosco:visited {
+    background-color: transparent;
 }
 
 .fale-conosco h2 {
@@ -746,8 +795,19 @@ header {
     background-position: left;
 }
 
+.header-titulo {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.header-subtitulo {
+    font-size: 100%;
+    max-width: 350px;
+    margin-top: 1em;
+}
+
 .link-menu {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 @media (min-width: 400px) {
