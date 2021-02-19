@@ -30,19 +30,25 @@ a,p,h1,h2,li,body{
     background-image: url(/img/sobre-img.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-site {
     background: linear-gradient(90deg, #33C199 0%, #337399 98.98%);
     mix-blend-mode: hard-light;
 }
-.nav-item:last-child{
+.nav-item{
+    
+}
+.link-menu:last-child{
     border: 1px solid white;
     border-radius: 6px;
+    margin-left: 20px;
 }
 
 .row {
     position: relative;
+    justify-content: space-around;
 }
 
 .bloco-img {
@@ -64,6 +70,7 @@ a,p,h1,h2,li,body{
     background-image: url(/img/recursos-img.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .center2 {
     text-align: center;
@@ -118,7 +125,11 @@ a,p,h1,h2,li,body{
   
     margin-top: 10px;
 }
-
+@media (min-width:350px) and (max-width:990px){
+    .title-deposition{
+        font-size: 20px;
+    }
+}
 /*
 * Configurações de slide depoimentos
 */
@@ -638,13 +649,17 @@ background-image: url(/img/simbol_banner.png);
 background-repeat: no-repeat;
 background-position: left;
 }
-.h-menu{
-    margin: 0 100px;
+.link-menu{
+    padding: 0 20px;
 }
 @media (min-width: 400px){
     .h-menu{
-        margin: 0 20px;
+       padding: 20px 50px;
     }    
+    .h-menu-nav{
+        display: flex;
+        margin: 0 auto;
+    }
 
 }
 .header-main{
@@ -656,7 +671,7 @@ background-position: left;
 }
 .header-main-content h1{
 font-weight: 900;
-font-size: 50px;
+font-size: 60px;
 line-height: 1.2;
 width: 500px;
 padding-top: 10px;
@@ -682,8 +697,8 @@ border-radius:11px;
     z-index: 3;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column
-    
+    flex-direction: column;
+    margin-right: 30px;
 }
 .header-imgs img{
     max-width: 550px;
@@ -694,7 +709,7 @@ position: absolute;
 width: 100%;
 height: 150px;
 background-color:white;
-top: 650px;
+top: 640px;
 transform: skewY(354deg);
 z-index: 0;
 }
