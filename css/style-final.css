@@ -483,6 +483,27 @@ footer {
     color: #757575;
     padding: 90px 0;
 }
+@media (max-width:990px) {
+    .blockquote p {
+        width: auto;
+    }
+    .bloco-img {
+        position: initial;
+        margin-top: 20px;
+    }
+}
+@media (max-width:770px){
+    .blockquote p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .sobre-bloco{
+        margin-top: 0;
+    }
+    .about-text{
+        font-size: 20px;
+    }
+}
 
 /* !PLANOS  */
 
