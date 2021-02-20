@@ -4,12 +4,7 @@
     --texts: #757575;
 }
 
-a,
-p,
-h1,
-h2,
-li,
-body {
+a, p, h1, h2, li, body {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -30,8 +25,7 @@ body {
     text-decoration: none;
 }
 
-.fale-especialista:link,
-.fale-especialista:visited {
+.fale-especialista:link, .fale-especialista:visited {
     background-color: white;
     padding: 1em 2em;
     border-radius: 10px;
@@ -40,8 +34,7 @@ body {
     text-decoration: none;
 }
 
-.fale-especialista:hover,
-.fale-especialista:active {
+.fale-especialista:hover, .fale-especialista:active {
     background-color: transparent;
     border: 1px solid white;
     color: white;
@@ -50,13 +43,13 @@ body {
     transition: 0.5s;
 }
 
-
 /* *header 1 */
 
 #header-site {
     background-image: url(/img/sobre-img.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-site {
@@ -80,14 +73,11 @@ nav img {
     padding-bottom: 1em;
 }
 
-.nav-item,
-.nav-item:link,
-.nav-ite:visited {
+.nav-item, .nav-item:link, .nav-ite:visited {
     color: white;
 }
 
-.nav-item:hover,
-.nav-item:active {
+.nav-item:hover, .nav-item:active {
     text-shadow: 0 0 1px #fff;
     color: whitesmoke;
 }
@@ -98,20 +88,16 @@ nav img {
     max-height: 40px;
 }
 
-
 .dropdown-menu {
     border: 0px solid transparent;
     background: transparent;
 }
 
-.dropdown-item,
-.dropdown-item:link,
-.dropdown-menu:visited {
+.dropdown-item, .dropdown-item:link, .dropdown-menu:visited {
     color: white;
 }
 
-.dropdown-item:hover,
-.dropdown-item:active {
+.dropdown-item:hover, .dropdown-item:active {
     text-shadow: 0 0 1px #fff;
     color: whitesmoke;
     background: transparent;
@@ -137,11 +123,12 @@ nav img {
     font-weight: 800;
 }
 
-@media (max-width:1200px){
-    .nav-link{
+@media (max-width:1200px) {
+    .nav-link {
         font-size: 12px;
     }
 }
+
 /* *header  2*/
 
 #header-site2 {
@@ -168,7 +155,6 @@ nav img {
     width: 300px;
     margin-top: 20px;
 }
-
 
 /* ?DEPOIMENTOS  */
 
@@ -218,7 +204,13 @@ nav img {
         padding-left: 0.5em;
     }
 }
-
+@media (max-width:770px){
+    .depositions{
+        top: 20px;
+        max-width: 500px;
+        transform: none;
+    }
+}
 
 /*
 * Configurações de slide depoimentos
@@ -232,8 +224,7 @@ nav img {
     margin: 0px 20px;
 }
 
-.slick-prev:before,
-.slick-next:before {
+.slick-prev:before, .slick-next:before {
     color: black;
 }
 
@@ -254,7 +245,6 @@ nav img {
     margin: 1em auto 2em!important;
 }
 
-
 /* ?MARCAS  */
 
 .marcas {
@@ -269,11 +259,9 @@ nav img {
     color: #757575;
 }
 
-
 /* ?FALE CONOSCO  */
 
-.fale-conosco:link,
-.fale-conosco:visited {
+.fale-conosco:link, .fale-conosco:visited {
     background-color: transparent;
 }
 
@@ -326,7 +314,6 @@ nav img {
     }
 }
 
-
 /* ?FOOTER  */
 
 footer {
@@ -369,22 +356,17 @@ footer {
     width: 50%;
 }
 
-.footer-bloco p a,
-.footer-bloco p a:link,
-.footer-bloco p a:visited {
+.footer-bloco p a, .footer-bloco p a:link, .footer-bloco p a:visited {
     color: white;
     transition: 0.5s;
 }
 
-.footer-bloco p a:hover,
-.footer-bloco p a:active {
-    
-    color: rgba(255,255,255,.55);
+.footer-bloco p a:hover, .footer-bloco p a:active {
+    color: rgba(255, 255, 255, .55);
     transition: 0.5s;
 }
 
-.fale-especialista:link,
-.fale-especialista:visited {
+.fale-especialista:link, .fale-especialista:visited {
     background-color: white;
     padding: 1em 2em;
     border-radius: 10px;
@@ -393,8 +375,7 @@ footer {
     text-decoration: none;
 }
 
-.fale-especialista:hover,
-.fale-especialista:active {
+.fale-especialista:hover, .fale-especialista:active {
     background-color: transparent;
     border: 1px solid white;
     color: white;
@@ -449,7 +430,6 @@ footer {
     }
 }
 
-
 /* ?TRANSFORME SUA EMPRESA  */
 
 .row-content {
@@ -493,9 +473,7 @@ footer {
     }
 }
 
-
 /* !SOBRE */
-
 
 /* *MAIN CONTENT  */
 
@@ -577,9 +555,7 @@ footer {
     }
 }
 
-
 /* !PLANOS  */
-
 
 /* *planos  */
 
@@ -616,14 +592,12 @@ footer {
     border-color: #336a99;
 }
 
-.industria-representantes a:link,
-.industria-representantes a:visited {
+.industria-representantes a:link, .industria-representantes a:visited {
     color: #336a99!important;
     text-decoration: none!important;
 }
 
-.industria-representantes a:hover,
-.industria-representantes a:active {
+.industria-representantes a:hover, .industria-representantes a:active {
     color: white!important;
     text-decoration: none!important;
     background: #336a99!important;
@@ -742,14 +716,13 @@ footer {
 
 .pro-plan .gostei-dessa {
     background-color: white;
-    padding:0.5em 1em 0.5em 1em ;
+    padding: 0.5em 1em 0.5em 1em;
     border-radius: 0.5em;
     color: #52ca98;
     border: none;
 }
 
-.pro-plan .gostei-dessa:hover,
-.diamant-plan .gostei-dessa:hover {
+.pro-plan .gostei-dessa:hover, .diamant-plan .gostei-dessa:hover {
     background-color: transparent;
     color: white;
     border: 1px solid white;
@@ -772,7 +745,6 @@ footer {
         text-align: center;
     }
 }
-
 
 /* !RECURSOS  */
 
@@ -822,7 +794,6 @@ footer {
     object-fit: contain;
 }
 
-
 /* !CLIENTES  */
 
 .clientes {
@@ -838,7 +809,6 @@ footer {
     /* Google Chrome, Safari 6+ & Opera 15+ */
     -ms-filter: grayscale(1);
 }
-
 
 /* !CONTATO  */
 
@@ -873,9 +843,7 @@ footer {
     color: #878b8e;
 }
 
-
 /* !INDEX  */
-
 
 /* !HEADER  */
 
@@ -1005,7 +973,6 @@ header {
     }
 }
 
-
 /* -fim do header index  */
 
 .bgcolor-azul {
@@ -1091,7 +1058,6 @@ header {
     background-size: cover;
     background-size: 637px 717px;
 }
-
 
 /*
 * Configurações de page index
@@ -1200,7 +1166,6 @@ header {
     }
 }
 
-
 /* RECURSOS INDEX  */
 
 .recursos-quadrados {
@@ -1240,31 +1205,31 @@ header {
 .recursos-quadrado-verde a {
     text-decoration: none;
 }
-.recursos-quadrado-verde h5:hover{
+
+.recursos-quadrado-verde h5:hover {
     font-weight: 900;
     transition: 0.5s;
 }
 
 .recursos-quadrado-verde h5 {
     color: white;
-   
-}
-
-HEAD 
 }
 
 /* !ECOMERCE  */
+
 .ecommerce {
     margin: 5em auto 1em;
 }
 
 /* RECURSOS INDEX  */
+
 .ecommerce h3 {
     margin-top: 1em;
     color: #52ca98;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
+
 .recursos-quadrados {
     margin: 0.3em;
     background-color: white;
@@ -1274,38 +1239,44 @@ HEAD
     width: 200px;
     height: 200px;
 }
+
 .ecommerce-title {
     margin-top: 3em;
     padding-left: 1em;
     font-weight: bold;
     color: var(--texts);
 }
+
 .recursos-quadrados img {
     margin-top: 2em;
 }
+
 .linha-cinza {
     width: 100%;
     margin: 1em 0em;
     border-bottom: 1px solid black;
 }
+
 .recursos-quadrados h5 {
     color: #52ca98;
     margin-top: 1em;
 }
+
 .menu-ecommerce {
     display: flex;
     align-items: baseline;
     justify-content: flex-end;
     cursor: pointer;
 }
+
 .ecommerce-link {
     margin-left: 2em;
     color: var(--texts);
     text-decoration: none;
     font-weight: normal;
 }
-.menu-ecommerce a:hover,
-.menu-ecommerce a:active {
+
+.menu-ecommerce a:hover, .menu-ecommerce a:active {
     font-weight: bold;
     text-decoration: none;
 }
@@ -1316,26 +1287,31 @@ HEAD
     left: 0%;
     transform: translate(0px, 0px);
 }
+
 .ecommerce-image-02 {
     position: relative;
     left: 0%;
     bottom: 5%;
     transform: translate(0px, 0px);
 }
+
 .ecommerce-bege-text {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
 .text-green-ecommerce {
     color: #52ca98;
     margin-top: 1em;
     margin-bottom: 0.5em;
     font-weight: bold;
 }
+
 .menu-ecommerce .area-ativa {
     color: var(--green-main);
     border-bottom: var(--green-main);
 }
+
 .area-ativa::after {
     content: "";
     width: 20px;
@@ -1344,21 +1320,18 @@ HEAD
     margin: 0 auto;
     display: block;
 }
+
 @media (max-width:770px) {
     .ecommerce-title {
         text-align: center;
     }
-    
     .menu-ecommerce {
         justify-content: space-between;
     }
-    
     .img-ecommerce {
         display: none;
     }
-    
-    .ecommerce-image-01,
-    .ecommerce-image-02 {
+    .ecommerce-image-01, .ecommerce-image-02 {
         display: none;
     }
 }
