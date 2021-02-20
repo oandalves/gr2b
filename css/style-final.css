@@ -57,7 +57,6 @@ body {
     background-image: url(/img/sobre-img.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .header-site {
@@ -95,7 +94,10 @@ nav img {
 
 .nav-item {
     margin-left: 1em;
+    max-width: 140px;
+    max-height: 40px;
 }
+
 
 .dropdown-menu {
     border: 0px solid transparent;
@@ -135,7 +137,11 @@ nav img {
     font-weight: 800;
 }
 
-
+@media (max-width:1200px){
+    .nav-link{
+        font-size: 12px;
+    }
+}
 /* *header  2*/
 
 #header-site2 {
@@ -345,8 +351,7 @@ footer {
     margin: 10px 0;
 }
 
-.footer p,
-.footer p a {
+.footer p, .footer p a {
     font-size: 14px;
     line-height: 1.7;
     color: #FFFFFF;
@@ -368,12 +373,14 @@ footer {
 .footer-bloco p a:link,
 .footer-bloco p a:visited {
     color: white;
+    transition: 0.5s;
 }
 
 .footer-bloco p a:hover,
 .footer-bloco p a:active {
-    text-shadow: 0 0 1px #fff;
-    color: whitesmoke;
+    
+    color: rgba(255,255,255,.55);
+    transition: 0.5s;
 }
 
 .fale-especialista:link,
@@ -406,6 +413,7 @@ footer {
 
 .last p {
     text-align: right;
+    max-width: 100%;
 }
 
 .rodape {
@@ -734,10 +742,7 @@ footer {
 
 .pro-plan .gostei-dessa {
     background-color: white;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding:0.5em 1em 0.5em 1em ;
     border-radius: 0.5em;
     color: #52ca98;
     border: none;
@@ -892,7 +897,6 @@ header {
 .header-subtitulo {
     font-size: 100%;
     max-width: 350px;
-    margin-top: 1em;
 }
 
 .header-main-titulo {
@@ -1200,13 +1204,14 @@ header {
 /* RECURSOS INDEX  */
 
 .recursos-quadrados {
-    margin: 0.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 0.5em auto 0.5em;
+    border-radius: 20px;
     width: 200px;
     height: 200px;
+    text-align: center;
 }
 
 .recursos-quadrados img {
@@ -1222,30 +1227,30 @@ header {
 }
 
 .recursos-quadrado-verde {
-    margin: 0.5em;
-    background-color: #52ca98;
-    border-radius: 10px;
-    text-align: center;
-    padding: 0.5em auto 0.5em;
+    display: flex;
+    align-items: center;
+    background-color: var(--green-main);
+    border-radius: 20px;
     width: 200px;
     height: 200px;
-}
-
-.recursos-quadrado-verde:hover {
-    border: 2px solid white;
-    transition: 0.5s;
+    text-align: center;
+    padding: 0 20px;
 }
 
 .recursos-quadrado-verde a {
     text-decoration: none;
 }
+.recursos-quadrado-verde h5:hover{
+    font-weight: 900;
+    transition: 0.5s;
+}
 
 .recursos-quadrado-verde h5 {
     color: white;
-    margin-top: 3em;
+   
 }
 
-<<<<<<< HEAD <<<<<<< HEAD=======
+HEAD 
 }
 
 /* !ECOMERCE  */
@@ -1272,6 +1277,8 @@ header {
 .ecommerce-title {
     margin-top: 3em;
     padding-left: 1em;
+    font-weight: bold;
+    color: var(--texts);
 }
 .recursos-quadrados img {
     margin-top: 2em;
@@ -1291,29 +1298,18 @@ header {
     justify-content: flex-end;
     cursor: pointer;
 }
-.recursos-quadrado-verde {
-    margin: 0.5em;
-    background-color: #52ca98;
-    border-radius: 10px;
-    text-align: center;
-    padding: 0.5em auto 0.5em;
-    width: 200px;
-    height: 200px;
-}
 .ecommerce-link {
     margin-left: 2em;
-    color: black;
+    color: var(--texts);
     text-decoration: none;
+    font-weight: normal;
 }
 .menu-ecommerce a:hover,
 .menu-ecommerce a:active {
     font-weight: bold;
     text-decoration: none;
 }
-.recursos-quadrado-verde h5 {
-    color: white;
-    margin-top: 3em;
-}
+
 .ecommerce-image-01 {
     position: relative;
     top: -10%;
@@ -1334,6 +1330,7 @@ header {
     color: #52ca98;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    font-weight: bold;
 }
 .menu-ecommerce .area-ativa {
     color: var(--green-main);
