@@ -18,7 +18,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css?v=509">
+    <link rel="stylesheet" href="css/style.css?v=603">
 
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick-theme.css">
@@ -33,7 +33,7 @@
         <div class="header-simbol-bg">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="./img/logo-gr2b.png" class="img-fluid" alt="Logo GR2B">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,32 +45,32 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-xl-0">
                             <li class="nav-item dropdown link-menu">
-                                <a class="nav-link dropdown-toggle" href="ecommerce.html" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle" href="ecommerce.php" id="navbarDropdown"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     E-commerce B2B
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item"
-                                            href="ecommerce.html?type=distribuidora">Distribuidoras</a></li>
-                                    <li><a class="dropdown-item" href="ecommerce.html?type=industrias">Indústria</a></li>
+                                            href="ecommerce.php?type=distribuidora">Distribuidoras</a></li>
+                                    <li><a class="dropdown-item" href="ecommerce.php?type=industrias">Indústria</a></li>
                                     <li><a class="dropdown-item"
-                                            href="ecommerce.html?type=representante">Representantes</a></li>
+                                            href="ecommerce.php?type=representante">Representantes</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item link-menu">
-                                <a class="nav-link" href="sobre.html">Sobre a GR2B</a>
+                                <a class="nav-link" href="sobre.php">Sobre a GR2B</a>
                             </li>
                             <li class="nav-item link-menu">
-                                <a class="nav-link" href="planos.html">Planos</a>
+                                <a class="nav-link" href="planos.php">Planos</a>
                             </li>
                             <li class="nav-item link-menu">
-                                <a class="nav-link" href="recursos.html">Recursos</a>
+                                <a class="nav-link" href="recursos.php">Recursos</a>
                             </li>
                             <li class="nav-item link-menu">
-                                <a class="nav-link" href="clientes.html">Clientes</a>
+                                <a class="nav-link" href="clientes.php">Clientes</a>
                             </li>
                             <li class="nav-item link-menu">
-                                <a class="nav-link fale-conosco" href="contato.html">
+                                <a class="nav-link fale-conosco" href="contato.php">
                                     Fale Conosco
                                 </a>
                             </li>
@@ -411,52 +411,8 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="footer ">
-            <div class="footer-bloco ">
-                <a href="index.html "><img src="./img/logo-gr2b.png " alt="Logo da GR2B "></a>
-                <h2>Onde nos encontrar</h2>
-                <p>Rua Onze de Abril, 999 - Centro Montes Claros - MG </p>
-            </div>
-            <div class="footer-bloco ">
-                <h2>Institucional</h2>
-                <p><a href="index.html ">Home</a></p>
-                <p><a href="sobre.html ">Sobre nós</a></p>
-                <p><a href="clientes.html ">Clientes</a></p>
-                <p><a href="vagas.html ">Vagas</a></p>
-            </div>
-            <div class="footer-bloco ">
-                <h2>Produtos</h2>
-                <p><a href="plataforma-ecommerce-b2b.html">Plataforma</a></p>
-                <p><a href="recursos.html ">Recursos</a></p>
-                <p><a href="planos.html ">Planos</a></p>
-            </div>
-            <div class="footer-bloco last ">
-                <a href="contato.html " class="fale-especialista ">Fale com um especialista</a>
-                <h2>Central de atendimento</h2>
-                <p>+ 55 38 4444-4444</p>
-            </div>
-        </div>
-        <div class="container ">
-            <div class="row rodape ">
-                <hr class="linhabranca ">
-                <div class="row rodape-direitos ">
-                    <small class="d-block mb-3 ">&copy; 2020-2021 GR2B. Todos os direitos reservados.</small>
-                </div>
-                <div class="rodape-feito ">
-                    <div class="rodape-feito-direita ">
-                        feito por:
-                        <a href="https://ecommercenet.com.br/ " target="_blank ">
-                            <img src="./img/ecommerce.png " class="img-fluid m-2 " alt="logo ecommerce-net ">
-                        </a>
-                        <a href="# " target="_blank ">
-                            <img src="./img/saintz.png " class="img-fluid mt-1 " alt="logo Saintz ">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
+    <?php include 'footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js "
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW "

@@ -1202,7 +1202,7 @@ header {
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:770px) {
     .title-green h4 {
         font-size: 18px;
         margin-bottom: 0;
@@ -1451,5 +1451,11 @@ header {
     .plataforma-bloco h3{
         font-size: 25px;
         top: -2%;
+    }
+    .plataforma-mini-blocos{
+        padding: 30px 0;
+    }
+    .block{
+        width: 300px;
     }
 }
