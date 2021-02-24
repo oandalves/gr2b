@@ -1,3 +1,126 @@
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
+if (array_key_exists('email', $_POST)) {
+    $err = false;
+    $msg = '';
+    $email = '';
+
+    if (array_key_exists('nome', $_POST)) {
+        $nome = substr(strip_tags($_POST['nome']), 0, 255);
+    } else {
+        $nome = '';
+        $msg .= 'Por gentileza, insira seu nome';
+        $err = true;
+    }
+
+    if (array_key_exists('email', $_POST) && PHPMailer::validateAddress($_POST['email'])) {
+        $email = $_POST['email'];
+    } else {
+        $msg .= 'Por gentileza, verifique o endereço de e-mail fornecido.';
+        $err = true;
+    }
+
+    if (array_key_exists('telefone', $_POST)) {
+        $telefone = substr(strip_tags($_POST['telefone']), 0, 255);
+    } else {
+        $telefone = '';
+        $msg .= 'Por gentileza, insira um número de telefone válido';
+        $err = true;
+    }
+
+    if (array_key_exists('cargo', $_POST)) {
+        $cargo = substr(strip_tags($_POST['cargo']), 0, 255);
+    } else {
+        $cargo = '';
+        $msg .= 'Por gentileza, insira seu cargo na empresa';
+        $err = true;
+    }
+
+    if (array_key_exists('empresa', $_POST)) {
+        $empresa = substr(strip_tags($_POST['empresa']), 0, 255);
+    } else {
+        $empresa = '';
+        $msg .= 'Por gentileza, vinsira o nome da empresa que trabalha';
+        $err = true;
+    }
+
+    if (array_key_exists('interesse', $_POST)) {
+        $interesse = substr(strip_tags($_POST['interesse']), 0, 255);
+    } else {
+        $interesse = '';
+        $msg .= 'Por gentileza, insira a área de interesse';
+        $err = true;
+    }
+
+    if (array_key_exists('faturamento', $_POST)) {
+        $faturamento = substr(strip_tags($_POST['faturamento']), 0, 255);
+    } else {
+        $faturamento = '';
+        $msg .= 'Por gentileza, insira a média de faturamento.';
+        $err = true;
+    }
+
+    if (array_key_exists('funcionarios', $_POST)) {
+        $funcionarios = substr(strip_tags($_POST['funcionarios']), 0, 255);
+    } else {
+        $funcionarios = '';
+        $msg .= 'Por gentileza, insira a quantidade de funcionários';
+        $err = true;
+    }
+
+    if (array_key_exists('mensagem', $_POST)) {
+        $mensagem = substr(strip_tags($_POST['mensagem']), 0, 16384);
+    } else {
+        $mensagem = '';
+        $msg = 'Por gentileza, insira o texto da sua mensagem.';
+        $err = true;
+    }
+
+
+    if (!$err) {
+        $mail = new PHPMailer();
+        $mail->isSMTP();
+        $mail->Host       = 'mail.gr2b.com.br';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'anderson@gr2b.com.br';
+        $mail->Password   = '@Adele2021';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port       = 465;
+        $mail->CharSet = PHPMailer::CHARSET_UTF8;
+
+        $mail->setFrom('anderson@gr2b.com.br', (empty($nome) ? 'Nome' : $nome));
+        $mail->addAddress('anderson@gr2b.com.br');
+        $mail->addReplyTo($email, $nome);
+
+        $mail->isHTML(true);
+        $mail->Subject = 'GR2B - Formulário de contato';
+        $mail->Body = "<div style='color: white; background-color: #407BFF; padding-top: 4px; padding-bottom: 4px; padding-left: 4px; font-weight: bold; font-size; 26px'>GR2B</div>" .
+            "<br><b>Nome: </b>" . $nome .
+            "<br><b>Email: </b>" . $email .
+            "<br><b>Telefone: </b>" . $telefone .
+            "<br><b>Cargo: </b>" . $cargo .
+            "<br><b>Empresa: </b>" . $empresa .
+            "<br><b>Área de interesse: </b>" . $interesse .
+            "<br><b>Média de faturamento: </b>" . $faturamento .
+            "<br><b>Número de funcionários: </b>" . $funcionarios .
+            "<br><b>Mensagem: </b>" . $mensagem .
+            "<br><br><div style='color: white; background-color: #33ca99; padding-top: 4px; padding-bottom: 4px; padding-left: 4px; font-weight: bold;'></div>";
+
+        if (!$mail->send()) {
+            $msg .= 'Ops, apresentou um erro: ' . $mail->ErrorInfo;
+        } else {
+            $msg .= 'Sua mensagem foi enviada, em breve entraremos em contato.';
+        }
+    }
+} ?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -17,7 +140,7 @@
     </div>
     <section class="container mx-auto py-5">
         <h3><?php if (empty($msg)) { ?></h3>
-        <form method="POST" action="enviar.php">
+        <form method="POST" action="contato.php">
             <p class="contato-p">Quer enviar uma mensagem, tirar alguma dúvida ou bater um papo?</p>
             <div class="row">
                 <div class="col-md-6">
