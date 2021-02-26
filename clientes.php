@@ -21,13 +21,13 @@
             <div class="col-md-3 clientes">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="./img/tintanorte.png" class="img-fluid" alt="Cliente Tintanorte">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="" class="img-fluid" alt="">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="" class="img-fluid" alt="">
             </div>
             <div class="col-md-3 clientes">
             </div>
@@ -36,13 +36,13 @@
             <div class="col-md-3 clientes">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="" class="img-fluid" alt="">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="" class="img-fluid" alt="">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="" class="img-fluid" alt="">
             </div>
             <div class="col-md-3 clientes">
             </div>
@@ -51,13 +51,13 @@
             <div class="col-md-3 clientes">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="" class="img-fluid" alt="">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="" class="img-fluid" alt="">
             </div>
             <div class="col-md-2 clientes">
-                <img src="./img/brand-01.png" class="img-fluid gray" alt="Clientes da GR2B">
+                <img src="" class="img-fluid" alt="">
             </div>
             <div class="col-md-3 clientes">
             </div>
@@ -118,38 +118,42 @@
             </div>
         </div>
     </section>
-    <section class="fale-conosco">
+    <section class="fale-conosco ">
         <div class="container mx-auto py-5 ">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row ">
+                <div class="col-md-6 ">
                     <h2 class="text-uppercase text-green mb-4 ">Fale conosco</h2>
                     <div class="linha-azul "></div>
-                    <p class="fale-conosco-p">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
-                    <div class="first-block-fale-conosco">
-                        <div class="block-fale-conosco">
-                            <a href="#" target="_blank">
+                    <p class="fale-conosco-p ">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
+                    <div class="first-block-fale-conosco ">
+                        <div class="block-fale-conosco ">
+                            <a href="# " target="_blank ">
                                 <img src="./img/whatsapp.svg " alt="Enviar mensagem para nosso whatsapp ">
                             </a>
                         </div>
-                        <div class="block-fale-conosco">
-                            <a href="#" target="_blank">
-                                <img src="./img/email.svg" alt="Encaminhar email ">
+                        <div class="block-fale-conosco ">
+                            <a href="contato.php" target="_blank ">
+                                <img src="./img/email.svg " alt="Encaminhar email ">
                             </a>
                         </div>
-                        <div class="block-fale-conosco">
-                            <a href="#" target="_blank">
-                                <img src="./img/chat.svg" alt="Entrar em contato pelo chat ">
+                        <div class="block-fale-conosco ">
+                            <a href="# " target="_blank ">
+                                <img src="./img/chat.svg " alt="Entrar em contato pelo chat ">
                             </a>
                         </div>
+                        
                     </div>
                     <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
-                    <a href="#" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #336a99;"></i></a>
-                    <a href="#" target="_blank" style="margin-right: 2em; margin-left: 2em;"><i
-                            class="fab fa-instagram fa-2x" style="color: #336a99;"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-youtube fa-2x" style="color: #336a99;"></i></a>
+                    <a href="https://www.facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
+                            style="color: #336a99; "></i></a>
+                    <a href="https://instagram.com/gr2business/ " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i
+                            class="fab fa-instagram fa-2x " style="color: #336a99; "></i></a>
+                    <a href="# " target="_blank "><i class="fab fa-youtube fa-2x " style="color: #336a99; "></i></a>
+                    <a href="# " target="_blank "><i class="fab fa-linkedin fa-2x " style="color: #336a99; margin-left: 1em; "></i></a>
                 </div>
-                <div class="col-md-6 img-fale-conosco">
-                    <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco" alt="Imagem de notificação de mensagem nos dispositivos conectados a plataforma. ">
+                <div class="col-md-6 ">
+                    <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco "
+                        alt="Imagem de notificação de mensagem nos dispositivos conectados a plataforma. ">
                 </div>
             </div>
         </div>

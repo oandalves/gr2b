@@ -96,6 +96,8 @@ nav img {
     background: white;
     left: -150px;
     min-width: 100px;
+    position: sticky !important;
+    z-index: 100;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .nav-link:focus, .nav-link:hover {
@@ -802,27 +804,30 @@ footer {
 .green-rectangle {
     background-color: #52ca98;
     padding: 10px 15px;
-    width: 300px;
+    max-width: 350px;
     border-radius: 5px;
     color: white;
     position: absolute;
     top: 5%;
     left: 0%;
     transform: translate(0%, 0%);
+    text-align: left;
 }
 
 .green-rectangle strong {
-    padding-left: 20px;
     font-size: 19px;
 }
 
 .white-rectangle {
-    padding: 2em;
     margin-left: 10px;
     margin-top: 40px;
     border-radius: 10px;
     line-height: 1.2;
     color: #767473;
+    height: 240px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .white-rectangle p {
@@ -835,20 +840,29 @@ footer {
     object-fit: contain;
 }
 
+.coluna-ult {
+    top: -6%;
+}
+
+@media (max-width:1000px) {
+    .white-rectangle {
+        height: 350px;
+    }
+}
+
 /* !CLIENTES  */
 
 .clientes {
     margin: 1em auto 1em;
 }
+.clientes img{
+    filter: grayscale();
+    transition: 0.5s;
+}
 
-.gray {
-    filter: gray;
-    /* IE6-9 */
-    filter: grayscale(1);
-    /* Microsoft Edge and Firefox 35+ */
-    -webkit-filter: grayscale(1);
-    /* Google Chrome, Safari 6+ & Opera 15+ */
-    -ms-filter: grayscale(1);
+.clientes img:hover{
+    filter: none;
+    transition: 0.5s;
 }
 
 /* !CONTATO  */
@@ -901,6 +915,7 @@ header {
 .header-titulo {
     font-weight: bold;
     font-size: 200%;
+    z-index: 90;
 }
 
 .header-subtitulo {
@@ -1026,6 +1041,8 @@ header {
 
 .bgcolor-bege {
     background-color: #e5e5e5;
+    margin-bottom: 5em;
+    margin-top: 5em;
 }
 
 .bgcolor-green {
@@ -1363,6 +1380,12 @@ header {
     .ecommerce-image-01, .ecommerce-image-02 {
         display: none;
     }
+    .ecommerce-link {
+        margin-left: 0;
+    }
+    .bgcolor-bege {
+        height: 100%;
+    }
 }
 
 /* !PLATAFORMA  */
@@ -1434,7 +1457,7 @@ header {
 .block p {
     width: 300px;
     margin: 0 auto;
-   padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .plataforma-img-desc {
@@ -1447,15 +1470,16 @@ header {
 .plataforma-img-desc img {
     max-width: 100%;
 }
-@media (max-width:870px){
-    .plataforma-bloco h3{
+
+@media (max-width:870px) {
+    .plataforma-bloco h3 {
         font-size: 25px;
         top: -2%;
     }
-    .plataforma-mini-blocos{
+    .plataforma-mini-blocos {
         padding: 30px 0;
     }
-    .block{
+    .block {
         width: 300px;
     }
 }

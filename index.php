@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +18,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css?v=610">
+    <link rel="stylesheet" href="css/style.css?v=704">
 
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick-theme.css">
     <link href="/style.css?<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
     <script src="https://kit.fontawesome.com/62efa1d7f6.js" crossorigin="anonymous"></script>
 </head>
 
@@ -49,7 +52,8 @@
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item"
                                             href="ecommerce.php?type=distribuidora">Distribuidoras</a></li>
-                                    <li><a class="dropdown-item" href="ecommerce.php?type=industrias">Indústria</a></li>
+                                    <li><a class="dropdown-item" href="ecommerce.php?type=industrias">Indústrias</a>
+                                    </li>
                                     <li><a class="dropdown-item"
                                             href="ecommerce.php?type=representante">Representantes</a></li>
                                 </ul>
@@ -81,7 +85,7 @@
                     <p>Aumente o desempenho de sua equipe comercial vendendo 24 horas por dia de forma inteligente e
                         eficaz.
                     </p>
-                    <a class="btn-white fale-especialista" href="">Fale com um Especialista</a>
+                    <a class="btn-white fale-especialista" href="contato.php">Fale com um Especialista</a>
                 </div>
                 <div class="header-imgs">
                     <img src="./img/tela-sistema-gr2b.png" class="img-fluid" alt="imagem do sistema GR2B">
@@ -219,7 +223,7 @@
                 <h2 class=" ">Transforme sua empresa: <br> venda mais e reduza custos.</h2>
                 <p class=" ">Fale com um de nossos especialistas e saiba como utilizar a nossa tecnologia para
                     impulsionar os seus negócios.</p>
-                <a class="fale-especialista " href="contato.html ">
+                <a class="fale-especialista " href="contato.php ">
                     <strong>Fale com um Especialista</strong>
                 </a>
             </div>
@@ -256,7 +260,7 @@
                 <h5>Visual customizado</h5>
             </div>
             <div class="col-md-2 recursos-quadrado-verde shadow">
-                <a class="" href="recursos.html ">
+                <a class="" href="recursos.php ">
                     <h5>Ver todos os recursos</h5>
                 </a>
 
@@ -341,31 +345,31 @@
         <h4>Algumas das marcas que confiam e indicam a GR2B</h4>
         <div class="row regular1 slider brand-icons ">
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src="./img/tintanorte.png " class="img-fluid " alt="Marcas que indicam e confiam ">
             </div>
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src=" " class="img-fluid " alt=" ">
             </div>
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src=" " class="img-fluid " alt=" ">
             </div>
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src=" " class="img-fluid " alt=" ">
             </div>
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src=" " class="img-fluid " alt=" ">
             </div>
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src=" " class="img-fluid " alt=" ">
             </div>
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src=" " class="img-fluid " alt=" ">
             </div>
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src=" " class="img-fluid " alt=" ">
             </div>
             <div>
-                <img src="./img/brand-01.png " class="img-fluid " alt="Marcas que indicam e confiam ">
+                <img src=" " class="img-fluid " alt=" ">
             </div>
         </div>
     </section>
@@ -384,7 +388,7 @@
                             </a>
                         </div>
                         <div class="block-fale-conosco ">
-                            <a href="# " target="_blank ">
+                            <a href="contato.php" target="_blank ">
                                 <img src="./img/email.svg " alt="Encaminhar email ">
                             </a>
                         </div>
@@ -393,13 +397,15 @@
                                 <img src="./img/chat.svg " alt="Entrar em contato pelo chat ">
                             </a>
                         </div>
+                        
                     </div>
                     <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
-                    <a href="# " target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
+                    <a href="https://www.facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
                             style="color: #336a99; "></i></a>
-                    <a href="# " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i
+                    <a href="https://instagram.com/gr2business/ " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i
                             class="fab fa-instagram fa-2x " style="color: #336a99; "></i></a>
                     <a href="# " target="_blank "><i class="fab fa-youtube fa-2x " style="color: #336a99; "></i></a>
+                    <a href="# " target="_blank "><i class="fab fa-linkedin fa-2x " style="color: #336a99; margin-left: 1em; "></i></a>
                 </div>
                 <div class="col-md-6 ">
                     <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco "
@@ -408,38 +414,38 @@
             </div>
         </div>
     </section>
-    
+
     <?php include 'footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js "
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW "
-        crossorigin="anonymous "></script>
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous ">
+    </script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js " type="text/javascript"></script>
 
     <script src="asssets/slick/slick.js " type="text/javascript" charset="utf-8 "></script>
     <script type="text/javascript ">
-
-        $(document).on('ready', function() {
-            $(".regular ").slick({
-                dots: true,
-                infinite: true,
-                slidesToShow: 2,
-                slidesToScroll: 2
-            });
-
+    $(document).on('ready', function() {
+        $(".regular ").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2
         });
+
+    });
     </script>
     <script type="text/javascript ">
-        $(document).on('ready', function() {
-            $(".regular1 ").slick({
-                dots: true,
-                infinite: true,
-                slidesToShow: 6,
-                slidesToScroll: 6
-            });
-
+    $(document).on('ready', function() {
+        $(".regular1 ").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 6
         });
+
+    });
     </script>
+    <script src="//code.jivosite.com/widget/tt1nUcbC8Y" async></script>
 </body>
 
 </html>

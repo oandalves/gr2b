@@ -11,30 +11,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css?v=610">
-
+    <link rel="stylesheet" href="css/style.css?v=704">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script>
-        $(document).ready(function() {
-            $(".bt1").addClass("btn");
+    $(document).ready(function() {
+        $(".bt1").addClass("btn");
+        $("#industria").show();
+        $("#representante").hide();
+        $(".bt1").click(function() {
             $("#industria").show();
             $("#representante").hide();
-            $(".bt1").click(function() {
-                $("#industria").show();
-                $("#representante").hide();
-                $(".bt1").addClass("btn");
-                $(".bt2").removeClass("btn");
-            });
-            $(".bt2").click(function() {
-                $("#industria").hide();
-                $("#representante").show();
-                $(".bt2").addClass("btn")
-                $(".bt1").removeClass("btn");
-            });
+            $(".bt1").addClass("btn");
+            $(".bt2").removeClass("btn");
         });
+        $(".bt2").click(function() {
+            $("#industria").hide();
+            $("#representante").show();
+            $(".bt2").addClass("btn")
+            $(".bt1").removeClass("btn");
+        });
+    });
     </script>
 </head>
 
@@ -46,22 +47,26 @@
                     <a class="navbar-brand" href="index.php">
                         <img src="./img/logo-gr2b.png" class="img-fluid" alt="Logo GR2B">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon">
                         </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-xl-0">
                             <li class="nav-item dropdown link-menu">
-                                <a class="nav-link dropdown-toggle" href="ecommerce.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="ecommerce.php" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     E-commerce B2B
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item"
-                                            href="ecommerce.html?type=distribuidora">Distribuidoras</a></li>
-                                    <li><a class="dropdown-item" href="ecommerce.html?type=industrias">Indústria</a></li>
+                                            href="ecommerce.php?type=distribuidora">Distribuidoras</a></li>
+                                    <li><a class="dropdown-item" href="ecommerce.php?type=industrias">Indústrias</a>
+                                    </li>
                                     <li><a class="dropdown-item"
-                                            href="ecommerce.html?type=representante">Representantes</a></li>
+                                            href="ecommerce.php?type=representante">Representantes</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item link-menu">
@@ -119,7 +124,7 @@
                 <h3 class="preco">R$<span class="blue-bold">49</span>,99</h3>
                 <p class="">por usuário/mês</p>
                 <div class="plans-center">
-                    <a class="gostei-dessa shadow" href="gostei-dessa.html">Gostei dessa!</a>
+                    <a class="gostei-dessa shadow" href="gostei-dessa.php">Gostei dessa!</a>
                 </div>
             </div>
             <div class="col-md-2 shadow planos">
@@ -143,7 +148,7 @@
                 <h3 class="preco">R$<span class="blue-bold">69</span>,99</h3>
                 <p class="">por usuário/mês</p>
                 <div class="plans-center">
-                    <a class="gostei-dessa shadow" href="gostei-dessa.html">Gostei dessa!</a>
+                    <a class="gostei-dessa shadow" href="gostei-dessa.php">Gostei dessa!</a>
                 </div>
             </div>
             <div class="col-md-2 shadow planos">
@@ -167,7 +172,7 @@
                 <h3 class="preco">R$<span class="blue-bold">89</span>,99</h3>
                 <p>por usuário/mês</p>
                 <div class="plans-center">
-                    <a class="gostei-dessa shadow" href="gostei-dessa.html">Gostei dessa!</a>
+                    <a class="gostei-dessa shadow" href="gostei-dessa.php">Gostei dessa!</a>
                 </div>
             </div>
             <div class="col-md-2 shadow planos diamant-plan">
@@ -191,7 +196,7 @@
                 <h3 class="preco">R$<span class="blue-bold">219</span>,99</h3>
                 <p class="">por usuário/mês</p>
                 <div class="plans-center">
-                    <a class="gostei-dessa shadow" href="gostei-dessa.html">Gostei dessa!</a>
+                    <a class="gostei-dessa shadow" href="gostei-dessa.php">Gostei dessa!</a>
                 </div>
             </div>
         </div>
@@ -218,7 +223,7 @@
                 <h3 class="preco">R$<span class="blue-bold">49</span>,99</h3>
                 <p class="">por usuário/mês</p>
                 <div class="plans-center">
-                    <a class="gostei-dessa shadow" href="gostei-dessa.html">Gostei dessa!</a>
+                    <a class="gostei-dessa shadow" href="gostei-dessa.php">Gostei dessa!</a>
                 </div>
             </div>
             <div class="col-md-2 shadow planos">
@@ -242,7 +247,7 @@
                 <h3 class="preco">R$<span class="blue-bold">69</span>,99</h3>
                 <p class="">por usuário/mês</p>
                 <div class="plans-center">
-                    <a class="gostei-dessa shadow" href="gostei-dessa.html">Gostei dessa!</a>
+                    <a class="gostei-dessa shadow" href="gostei-dessa.php">Gostei dessa!</a>
                 </div>
             </div>
             <div class="col-md-2 shadow planos">
@@ -266,7 +271,7 @@
                 <h3 class="preco">R$<span class="blue-bold">89</span>,99</h3>
                 <p>por usuário/mês</p>
                 <div class="plans-center">
-                    <a class="gostei-dessa shadow" href="gostei-dessa.html">Gostei dessa!</a>
+                    <a class="gostei-dessa shadow" href="gostei-dessa.php">Gostei dessa!</a>
                 </div>
             </div>
             <div class="col-md-2 shadow planos pro-plan">
@@ -290,7 +295,7 @@
                 <h3 class="preco">R$<span class="blue-bold">219</span>,99</h3>
                 <p class="">por usuário/mês</p>
                 <div class="plans-center">
-                    <a class="gostei-dessa shadow" href="gostei-dessa.html">Gostei dessa!</a>
+                    <a class="gostei-dessa shadow" href="gostei-dessa.php">Gostei dessa!</a>
                 </div>
             </div>
         </div>
@@ -299,8 +304,9 @@
         <div class="row-content">
             <div class=" informacao-empresa">
                 <h2 class="">Transforme sua empresa: <br> venda mais e reduza custos.</h2>
-                <p class="">Fale com um de nossos especialistas e saiba como utilizar a nossa tecnologia para impulsionar os seus negócios.</p>
-                <a class="fale-especialista" href="contato.html">
+                <p class="">Fale com um de nossos especialistas e saiba como utilizar a nossa tecnologia para
+                    impulsionar os seus negócios.</p>
+                <a class="fale-especialista" href="contato.php">
                     <strong>Fale com um Especialista</strong>
                 </a>
             </div>
@@ -312,7 +318,9 @@
     </section>
     <?php include 'footer.php'?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

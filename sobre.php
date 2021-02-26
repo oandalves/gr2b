@@ -32,17 +32,7 @@
                 <div class="sobre-bloco">
                     <h4 class="h4">A sua plataforma</h4>
                     <p class="about-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacus elit, aliquet a bibendum
-                        auctor, vehicula nec quam. In gravida orci nec magna interdum, quis congue quam eleifend. Sed a
-                        volutpat erat. Nam fermentum commodo convallis. Aliquam bibendum
-                        dictum massa vitae dictum. Maecenas sed felis id tellus commodo rhoncus et tempus ex. Integer
-                        venenatis sit amet augue vel facilisis. Cras eleifend ante sed est pellentesque, et dictum
-                        turpis efficitur. Donec a tincidunt ipsum.
-                        Morbi pharetra semper dictum. Curabitur in sapien placerat velit feugiat vulputate vel ac
-                        turpis. Fusce aliquam odio quis neque sagittis, vitae iaculis nisl condimentum. Mauris hendrerit
-                        molestie diam ac elementum. Pellentesque
-                        elementum nunc molestie vehicula placerat. Proin egestas dui ut velit luctus luctus. Suspendisse
-                        congue est nibh, in tempor erat blandit quis.
+                    A plataforma de e-commerce B2B tem como objetivo potencializar a venda da industria, distribuidoras e representantes por meio do comércio eletrônico possibilitando a realização da venda sem restrição de horário, com alto poder de gestão da informação e auxiliar vendedores a atender sua carteira de clientes de forma mais eficiente e produtiva.
                     </p>
                 </div>
 
@@ -156,38 +146,41 @@
         </div>
     </section>
     <!-- fale conosco  -->
-    <section class="fale-conosco">
+    <section class="fale-conosco ">
         <div class="container mx-auto py-5 ">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row ">
+                <div class="col-md-6 ">
                     <h2 class="text-uppercase text-green mb-4 ">Fale conosco</h2>
                     <div class="linha-azul "></div>
-                    <p class="fale-conosco-p">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
-                    <div class="first-block-fale-conosco">
-                        <div class="block-fale-conosco">
-                            <a href="#" target="_blank">
+                    <p class="fale-conosco-p ">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
+                    <div class="first-block-fale-conosco ">
+                        <div class="block-fale-conosco ">
+                            <a href="# " target="_blank ">
                                 <img src="./img/whatsapp.svg " alt="Enviar mensagem para nosso whatsapp ">
                             </a>
                         </div>
-                        <div class="block-fale-conosco">
-                            <a href="#" target="_blank">
-                                <img src="./img/email.svg" alt="Encaminhar email ">
+                        <div class="block-fale-conosco ">
+                            <a href="contato.php" target="_blank ">
+                                <img src="./img/email.svg " alt="Encaminhar email ">
                             </a>
                         </div>
-                        <div class="block-fale-conosco">
-                            <a href="#" target="_blank">
-                                <img src="./img/chat.svg" alt="Entrar em contato pelo chat ">
+                        <div class="block-fale-conosco ">
+                            <a href="# " target="_blank ">
+                                <img src="./img/chat.svg " alt="Entrar em contato pelo chat ">
                             </a>
                         </div>
+                        
                     </div>
                     <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
-                    <a href="#" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #336a99;"></i></a>
-                    <a href="#" target="_blank" style="margin-right: 2em; margin-left: 2em;"><i
-                            class="fab fa-instagram fa-2x" style="color: #336a99;"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-youtube fa-2x" style="color: #336a99;"></i></a>
+                    <a href="https://www.facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
+                            style="color: #336a99; "></i></a>
+                    <a href="https://instagram.com/gr2business/ " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i
+                            class="fab fa-instagram fa-2x " style="color: #336a99; "></i></a>
+                    <a href="# " target="_blank "><i class="fab fa-youtube fa-2x " style="color: #336a99; "></i></a>
+                    <a href="# " target="_blank "><i class="fab fa-linkedin fa-2x " style="color: #336a99; margin-left: 1em; "></i></a>
                 </div>
-                <div class="col-md-6 img-fale-conosco">
-                    <img src="./img/fale_conosco.png " class="img-fluid "
+                <div class="col-md-6 ">
+                    <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco "
                         alt="Imagem de notificação de mensagem nos dispositivos conectados a plataforma. ">
                 </div>
             </div>

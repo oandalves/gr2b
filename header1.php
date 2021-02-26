@@ -1,17 +1,16 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css?v=704">
 
-    <link rel="stylesheet" href="css/style.css?v=610">
+<link rel="stylesheet" type="text/css" href="asssets/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="asssets/slick/slick-theme.css">
+<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+<script src="https://kit.fontawesome.com/62efa1d7f6.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="asssets/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="asssets/slick/slick-theme.css">
-
-    <script src="https://kit.fontawesome.com/62efa1d7f6.js" crossorigin="anonymous"></script>
-    
 </head>
 
 <body>
@@ -30,15 +29,15 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-xl-0">
-                            <li class="nav-item link-menu dropleft btn-group">
-                                <a class="nav-link dropdown-toggle" href="ecommerce.php" id="navbarDropdown"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li class="nav-item link-menu dropdown">
+                                <a class="nav-link dropdown-toggle" href="ecommerce.php" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     E-commerce B2B
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <li><a class="dropdown-item"
                                             href="ecommerce.php?type=distribuidora">Distribuidoras</a></li>
-                                    <li><a class="dropdown-item" href="ecommerce.php?type=industrias">Indústria</a>
+                                    <li><a class="dropdown-item" href="ecommerce.php?type=industrias">Indústrias</a>
                                     </li>
                                     <li><a class="dropdown-item"
                                             href="ecommerce.php?type=representante">Representantes</a></li>
