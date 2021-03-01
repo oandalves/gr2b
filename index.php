@@ -25,7 +25,6 @@
 </head>
 
 <body>
-    <div class="bg-triangulo"></div>
     <header>
         <div class="header-simbol-bg">
             <div class="container">
@@ -72,18 +71,19 @@
                 </nav>
             </div>
             </nav>
-        </div>
-        <div class="header-main">
-            <div class="header-main-content">
-                <h1>Tenha seu<br> E-commerce B2B</h1>
-                <p>Aumente o desempenho de sua equipe comercial vendendo 24 horas por dia de forma inteligente e
-                    eficaz.
-                </p>
-                <a class="btn-white fale-especialista" href="contato.php">Fale com um Especialista</a>
-            </div>
-            <div class="header-imgs">
-                <img src="./img/tela-sistema-gr2b.png" class="img-fluid" alt="imagem do sistema GR2B">
-                <img src="./img/tela-sistema-gr2b-produtos.png " class="img-fluid" alt="imagem do sistema GR2B">
+
+            <div class="header-main">
+                <div class="header-main-content">
+                    <h1>Tenha seu<br> E-commerce B2B</h1>
+                    <p>Aumente o desempenho de sua equipe comercial vendendo 24 horas por dia de forma inteligente e
+                        eficaz.
+                    </p>
+                    <a class="btn-white fale-especialista" href="contato.php">Fale com um Especialista</a>
+                </div>
+                <div class="header-imgs">
+                    <img src="./img/tela-sistema-gr2b.png" class="img-fluid" alt="imagem do sistema GR2B">
+                    <img src="./img/tela-sistema-gr2b-produtos.png " class="img-fluid" alt="imagem do sistema GR2B">
+                </div>
             </div>
         </div>
         </div>
@@ -377,7 +377,7 @@
                             </a>
                         </div>
                         <div class="block-fale-conosco ">
-                        <a href="javascript:void(0)" onclick="jivo_api.open()"><img src="./img/chat.svg " alt="Entrar em contato pelo chat "></a>
+                            <a href="javascript:void(0)" onclick="jivo_api.open()"><img src="./img/chat.svg " alt="Entrar em contato pelo chat "></a>
                         </div>
 
                     </div>
