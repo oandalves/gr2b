@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-store" />
     <title>GR2B | Fale Conosco</title>
-    <?php include 'header2.php';?>
-                <div class="row center">
-                    <div class="header-titulo">Fale Conosco</div>
-                    <div class="header-subtitulo"></div>
-                </div>
-            </div>
-        </div>
+    <?php include 'header2.php'; ?>
+    <div class="row center">
+        <div class="header-titulo">Fale Conosco</div>
+        <div class="header-subtitulo"></div>
     </div>
+    </div>
+    </div>
+    </div>
+
     <section class="container mx-auto py-5">
         <form method="post" action="form-contato.php">
 
@@ -23,13 +24,13 @@
                 <div class="col">
                     <input class="form-control mb-2" type="text" name="nome" placeholder="Seu nome">
                     <input class="form-control mb-2" type="text" name="email" placeholder="Seu email">
-                    <input class="form-control mb-2" type="text" name="telefone" placeholder="Telefone de contato">
+                    <input class="form-control mb-2" type="text" name="telefone" id="telefone" placeholder="Telefone de contato" required="" onkeypress="$(this).mask('(00) 0000-00009')">
                     <input class="form-control mb-2" type="text" name="cargo" placeholder="Seu cargo">
                     <input class="form-control mb-2" type="text" name="empresa" placeholder="Nome da empresa">
                 </div>
                 <div class="col">
                     <div class="form-group mb-2">
-                        <select class="form-select" aria-label="Default select example" name="select-area">
+                        <select class="form-select" aria-label="Default select example" name="select-area" required>
                             <option selected>Qual sua área de interesse?</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
@@ -37,7 +38,7 @@
                         </select>
                     </div>
                     <div class="form-group mb-2">
-                        <select class="form-select" aria-label="Default select example" name="select-media">
+                        <select class="form-select" aria-label="Default select example" name="select-media" required>
                             <option selected>Qual a sua média de faturamento?</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
@@ -45,20 +46,27 @@
                         </select>
                     </div>
                     <div class="form-group mb-2">
-                        <select class="form-select" aria-label="Default select example" name="select-funcionarios">
+                        <select class="form-select" aria-label="Default select example" name="select-funcionarios" required>
                             <option selected>Número de funcionários?</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <
+                                option value="3">Three</option>
                         </select>
                     </div>
                     <div class="form-floating mb-4">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 90px" name="message"></textarea>
-                        <label for="floatingTextarea2" >Sua mensagem</label>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 90px" name="message" required></textarea>
+                        <label for="floatingTextarea2">Sua mensagem</label>
                     </div>
-                    <button type="submit" class="btn btn-primary enviar-mensagem float-end">Enviar mensagem</button>
+                    <button type="submit" class="btn btn-primary enviar-mensagem float-end">Enviar mensagem <img id="modal" src="./img/ajax-loader.gif"></button>
+
                 </div>
+                <div class="form-result">
+                    <p>Mensagem enviada!</p>
+                </div>
+
             </div>
+            <div id="modal"> </div>
         </form>
         <div class="row">
             <p class="py-3">Também estamos nas redes sociais</p>
@@ -70,10 +78,41 @@
             </div>
         </div>
     </section>
-    
+
     <?php include 'footer.php' ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $('form').submit(function(e) {
+            e.preventDefault();
+
+            let $form = $(this);
+            const action = $form.attr('action');
+            const data = $form.serialize();
+            $('#modal').css('visibility', 'visible');
+
+            $.post({
+                data: data,
+                url: action,
+                success: function(result) {
+                    $('#modal').css('visibility', 'hidden');
+                    $('.form-result').css('visibility', 'visible');
+                    const data = JSON.parse(result);
+                    console.log(data['']);
+                    setTimeout(function() {
+                        location.reload(true);
+                    }, 2000);
+
+                },
+            });
+        });
+    </script>
+
+    </body>
 
 </html>

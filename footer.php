@@ -10,7 +10,7 @@
             <p><a href="index.php ">Home</a></p>
             <p><a href="sobre.php ">Sobre nós</a></p>
             <p><a href="clientes.php ">Clientes</a></p>
-            <p><a href="vagas.php ">Trabalhe Conosco</a></p>
+            <p><a href="trabalhe-conosco.php ">Trabalhe Conosco</a></p>
         </div>
         <div class="footer-bloco ">
             <h2>Produtos</h2>
