@@ -15,7 +15,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css?v=801">
+    <link rel="stylesheet" href="css/style.css?v=803">
 
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="asssets/slick/slick-theme.css">
@@ -71,19 +71,21 @@
                     </div>
                 </nav>
             </div>
-            <div class="header-main">
-                <div class="header-main-content">
-                    <h1>Tenha seu<br> E-commerce B2B</h1>
-                    <p>Aumente o desempenho de sua equipe comercial vendendo 24 horas por dia de forma inteligente e
-                        eficaz.
-                    </p>
-                    <a class="btn-white fale-especialista" href="contato.php">Fale com um Especialista</a>
-                </div>
-                <div class="header-imgs">
-                    <img src="./img/tela-sistema-gr2b.png" class="img-fluid" alt="imagem do sistema GR2B">
-                    <img src="./img/tela-sistema-gr2b-produtos.png " class="img-fluid" alt="imagem do sistema GR2B">
-                </div>
+            </nav>
+        </div>
+        <div class="header-main">
+            <div class="header-main-content">
+                <h1>Tenha seu<br> E-commerce B2B</h1>
+                <p>Aumente o desempenho de sua equipe comercial vendendo 24 horas por dia de forma inteligente e
+                    eficaz.
+                </p>
+                <a class="btn-white fale-especialista" href="contato.php">Fale com um Especialista</a>
             </div>
+            <div class="header-imgs">
+                <img src="./img/tela-sistema-gr2b.png" class="img-fluid" alt="imagem do sistema GR2B">
+                <img src="./img/tela-sistema-gr2b-produtos.png " class="img-fluid" alt="imagem do sistema GR2B">
+            </div>
+        </div>
         </div>
         <div id="triangulo-para-cima "></div>
     </header>
@@ -421,7 +423,6 @@
 
         });
     </script>
-
 </body>
 
 </html>

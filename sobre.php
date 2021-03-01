@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-store" />
     <title>GR2B | Sobre Nós</title>
-    <?php include 'header1.php' ?>
-    <div class="row center">
-        <div class="header-titulo">Sobre a GR2B</div>
-        <div class="header-subtitulo"></div>
-    </div>
-    </div>
-    </div>
+<?php include 'header1.php' ?>
+                <div class="row center">
+                    <div class="header-titulo">Sobre a GR2B</div>
+                    <div class="header-subtitulo"></div>
+                </div>
+            </div>
+        </div>
     </div>
     <section class="container mx-auto about">
         <div class="row">
@@ -32,7 +32,7 @@
                 <div class="sobre-bloco">
                     <h4 class="h4">A sua plataforma</h4>
                     <p class="about-text">
-                        A plataforma de e-commerce B2B tem como objetivo potencializar a venda da industria, distribuidoras e representantes por meio do comércio eletrônico possibilitando a realização da venda sem restrição de horário, com alto poder de gestão da informação e auxiliar vendedores a atender sua carteira de clientes de forma mais eficiente e produtiva.
+                    A plataforma de e-commerce B2B tem como objetivo potencializar a venda da industria, distribuidoras e representantes por meio do comércio eletrônico possibilitando a realização da venda sem restrição de horário, com alto poder de gestão da informação e auxiliar vendedores a atender sua carteira de clientes de forma mais eficiente e produtiva.
                     </p>
                 </div>
 
@@ -50,7 +50,8 @@
                 </div>
                 <div class="col-md-9 regular slider ">
                     <div style="width: 300px; " class="shadow message-deposition ">
-                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px " class="rounded-circle ">
+                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px "
+                            class="rounded-circle ">
                         <p style="font-size: 12px; ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                             consequat velit nec rutrum sodales. Morbi vestibulum sit amet risus a pulvinar. Sed accumsan
                             tempus cursus. Nulla vel elit eleifend, posuere sapien vel, scelerisque
@@ -59,7 +60,8 @@
                         <strong>Bianca Oliveira - SEO DE ALGO</strong>
                     </div>
                     <div style="width: 300px; " class="shadow message-deposition ">
-                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px " class="rounded-circle ">
+                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px "
+                            class="rounded-circle ">
                         <p style="font-size: 12px; ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                             consequat velit nec rutrum sodales. Morbi vestibulum sit amet risus a pulvinar. Sed accumsan
                             tempus cursus. Nulla vel elit eleifend, posuere sapien vel, scelerisque
@@ -68,7 +70,8 @@
                         <strong>Bianca Oliveira - SEO DE ALGO</strong>
                     </div>
                     <div style="width: 300px; " class="shadow message-deposition ">
-                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px " class="rounded-circle ">
+                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px "
+                            class="rounded-circle ">
                         <p style="font-size: 12px; ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                             consequat velit nec rutrum sodales. Morbi vestibulum sit amet risus a pulvinar. Sed accumsan
                             tempus cursus. Nulla vel elit eleifend, posuere sapien vel, scelerisque
@@ -77,7 +80,8 @@
                         <strong>Bianca Oliveira - SEO DE ALGO</strong>
                     </div>
                     <div style="width: 300px; " class="shadow message-deposition ">
-                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px " class="rounded-circle ">
+                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px "
+                            class="rounded-circle ">
                         <p style="font-size: 12px; ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                             consequat velit nec rutrum sodales. Morbi vestibulum sit amet risus a pulvinar. Sed accumsan
                             tempus cursus. Nulla vel elit eleifend, posuere sapien vel, scelerisque
@@ -86,7 +90,8 @@
                         <strong>Bianca Oliveira - SEO DE ALGO</strong>
                     </div>
                     <div style="width: 300px; " class="shadow message-deposition ">
-                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px " class="rounded-circle ">
+                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px "
+                            class="rounded-circle ">
                         <p style="font-size: 12px; ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                             consequat velit nec rutrum sodales. Morbi vestibulum sit amet risus a pulvinar. Sed accumsan
                             tempus cursus. Nulla vel elit eleifend, posuere sapien vel, scelerisque
@@ -95,7 +100,8 @@
                         <strong>Bianca Oliveira - SEO DE ALGO</strong>
                     </div>
                     <div style="width: 300px; " class="shadow message-deposition ">
-                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px " class="rounded-circle ">
+                        <img src="./img/perfil.jpg " alt="Foto de perfil de nossos clientes " width="60px "
+                            class="rounded-circle ">
                         <p style="font-size: 12px; ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                             consequat velit nec rutrum sodales. Morbi vestibulum sit amet risus a pulvinar. Sed accumsan
                             tempus cursus. Nulla vel elit eleifend, posuere sapien vel, scelerisque
@@ -161,27 +167,32 @@
                         <div class="block-fale-conosco ">
                         <a href="javascript:void(0)" onclick="jivo_api.open()"><img src="./img/chat.svg " alt="Entrar em contato pelo chat "></a>
                         </div>
-
+                        
                     </div>
                     <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
-                    <a href="https://facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais" style="color: #336a99; "></i></a>
-                    <a href="https://instagram.com/gr2business/ " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i class="fab fa-instagram fa-2x " style="color: #336a99; "></i></a>
+                    <a href="https://facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
+                            style="color: #336a99; "></i></a>
+                    <a href="https://instagram.com/gr2business/ " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i
+                            class="fab fa-instagram fa-2x " style="color: #336a99; "></i></a>
                     <a href="# " target="_blank "><i class="fab fa-youtube fa-2x " style="color: #336a99; "></i></a>
                     <a href="# " target="_blank "><i class="fab fa-linkedin fa-2x " style="color: #336a99; margin-left: 1em; "></i></a>
                 </div>
                 <div class="col-md-6 ">
-                    <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco " alt="Imagem de notificação de mensagem nos dispositivos conectados a plataforma. ">
+                    <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco "
+                        alt="Imagem de notificação de mensagem nos dispositivos conectados a plataforma. ">
                 </div>
             </div>
         </div>
     </section>
     <?php include 'footer.php' ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="asssets/slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
-        $(document).on('ready', function() {
+        $(document).on('ready', function () {
             $(".regular").slick({
                 dots: true,
                 infinite: true,
@@ -192,7 +203,7 @@
         });
     </script>
     <script type="text/javascript">
-        $(document).on('ready', function() {
+        $(document).on('ready', function () {
             $(".regular1").slick({
                 dots: true,
                 infinite: true,
@@ -202,6 +213,6 @@
 
         });
     </script>
-    </body>
+</body>
 
 </html>
