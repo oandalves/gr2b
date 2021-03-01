@@ -32,26 +32,27 @@
                     <div class="form-group mb-2">
                         <select class="form-select" aria-label="Default select example" name="select-area" required>
                             <option selected>Qual sua área de interesse?</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option value="Distribuidora">Distribuidora</option>
+                            <option value="Indústria">Indústria</option>
+                            <option value="Representante">Representante</option>
                         </select>
                     </div>
                     <div class="form-group mb-2">
                         <select class="form-select" aria-label="Default select example" name="select-media" required>
                             <option selected>Qual a sua média de faturamento?</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option value="Até 2 milhões por ano">Até 2 milhões por ano</option>
+                            <option value="Entre 2 e 10 milhões">Entre 2 e 10 milhões por ano</option>
+                            <option value="Entre 10 e 100 milhões">Entre 10 e 100 milhões por ano</option>
+                            <option value="Mais de 100 milhões">Mais de 100 milhões por ano</option>
                         </select>
                     </div>
                     <div class="form-group mb-2">
                         <select class="form-select" aria-label="Default select example" name="select-funcionarios" required>
                             <option selected>Número de funcionários?</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <
-                                option value="3">Three</option>
+                            <option value="De 1 a 30 funcionários">De 1 a 30 funcionários</option>
+                            <option value="De 30 a 100 funcionários">De 30 a 100 funcionários</option>
+                            <option value="De 100 a 500 funcionários">De 100 a 500 funcionários</option>
+                            <option value="Mais de 500 funcionários">Mais de 500 funcionários</option>
                         </select>
                     </div>
                     <div class="form-floating mb-4">
