@@ -400,12 +400,10 @@
                         
                     </div>
                     <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
-                    <a href="https://www.facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
-                            style="color: #336a99; "></i></a>
-                    <a href="https://instagram.com/gr2business/ " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i
-                            class="fab fa-instagram fa-2x " style="color: #336a99; "></i></a>
-                    <a href="# " target="_blank "><i class="fab fa-youtube fa-2x " style="color: #336a99; "></i></a>
-                    <a href="# " target="_blank "><i class="fab fa-linkedin fa-2x " style="color: #336a99; margin-left: 1em; "></i></a>
+                    <a href="https://facebook.com/gr2business/" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #336a99;"></i></a>
+                <a href="https://instagram.com/gr2business/" target="_blank" style="margin-right: 2em; margin-left: 2em;"><i class="fab fa-instagram fa-2x" style="color: #336a99;"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube fa-2x" style="color: #336a99;"></i></a>
+                <a href="# " target="_blank "><i class="fab fa-linkedin fa-2x " style="color: #336a99; margin-left: 1em; "></i></a>
                 </div>
                 <div class="col-md-6 ">
                     <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco "
@@ -445,7 +443,7 @@
 
     });
     </script>
-    <script src="//code.jivosite.com/widget/tt1nUcbC8Y" async></script>
+    
 </body>
 
 </html>

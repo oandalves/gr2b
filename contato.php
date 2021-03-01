@@ -41,9 +41,9 @@
                         <select class="form-select" aria-label="Default select example" name="select-media" required>
                             <option selected>Qual a sua média de faturamento?</option>
                             <option value="Até 2 milhões por ano">Até 2 milhões por ano</option>
-                            <option value="Entre 2 e 10 milhões">Entre 2 e 10 milhões</option>
-                            <option value="Entre 10 e 100 milhões">Entre 10 e 100 milhões</option>
-                            <option value="Mais de 100 milhões">Mais de 100 milhões</option>
+                            <option value="Entre 2 e 10 milhões por ano">Entre 2 e 10 milhões por ano</option>
+                            <option value="Entre 10 e 100 milhões por ano">Entre 10 e 100 milhões por ano</option>
+                            <option value="Mais de 100 milhões por ano">Mais de 100 milhões por ano</option>
                         </select>
                     </div>
                     <div class="form-group mb-2">

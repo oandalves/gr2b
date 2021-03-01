@@ -172,7 +172,7 @@
                         
                     </div>
                     <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
-                    <a href="https://www.facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
+                    <a href="https://facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
                             style="color: #336a99; "></i></a>
                     <a href="https://instagram.com/gr2business/ " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i
                             class="fab fa-instagram fa-2x " style="color: #336a99; "></i></a>
