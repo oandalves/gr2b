@@ -383,12 +383,12 @@
                     <p class="fale-conosco-p ">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
                     <div class="first-block-fale-conosco ">
                         <div class="block-fale-conosco ">
-                            <a href="# " target="_blank ">
+                            <a href="https://api.whatsapp.com/send?phone=5538998634392&text=Oi!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20GR2B." target="_blank ">
                                 <img src="./img/whatsapp.svg " alt="Enviar mensagem para nosso whatsapp ">
                             </a>
                         </div>
                         <div class="block-fale-conosco ">
-                            <a href="contato.php" target="_blank ">
+                            <a href="mailto:contato@gr2b.com.br?subject=GR2B%20-%20Contato" target="_blank ">
                                 <img src="./img/email.svg " alt="Encaminhar email ">
                             </a>
                         </div>
