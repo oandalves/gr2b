@@ -8,13 +8,13 @@
     <meta http-equiv="Cache-Control" content="no-store" />
     <title>GR2B | Clientes</title>
 
-    <?php include 'header1.php' ?>
-    <div class="row center">
-        <div class="header-titulo">Clientes</div>
-        <div class="header-subtitulo">Evoluímos com nossos clientes a cada dia para que eles vendam a cada minuto</div>
-    </div>
-    </div>
-    </div>
+    <?php include 'header1.php'?>
+                <div class="row center">
+                    <div class="header-titulo">Clientes</div>
+                    <div class="header-subtitulo">Evoluímos com nossos clientes a cada dia para que eles vendam a cada minuto</div>
+                </div>
+            </div>
+        </div>
     </div>
     <section class="container mx-auto py-5">
         <div class="row">
@@ -127,12 +127,12 @@
                     <p class="fale-conosco-p ">Quer enviar uma mensagem, tirar alguma dúvida <br> ou bater um papo?</p>
                     <div class="first-block-fale-conosco ">
                         <div class="block-fale-conosco ">
-                            <a href="https://api.whatsapp.com/send?phone=5538998634392&text=Oi!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20GR2B." target="_blank ">
+                            <a href="# " target="_blank ">
                                 <img src="./img/whatsapp.svg " alt="Enviar mensagem para nosso whatsapp ">
                             </a>
                         </div>
                         <div class="block-fale-conosco ">
-                            <a href="mailto:contato@gr2b.com.br?subject=GR2B%20-%20Contato" target="_blank ">
+                            <a href="contato.php" target="_blank ">
                                 <img src="./img/email.svg " alt="Encaminhar email ">
                             </a>
                         </div>
@@ -141,22 +141,24 @@
                                 <img src="./img/chat.svg " alt="Entrar em contato pelo chat ">
                             </a>
                         </div>
-
+                        
                     </div>
                     <p class="fale-conosco-p ">Também estamos nas redes sociais</p>
-                    <a href="https://facebook.com/gr2business/" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #336a99;"></i></a>
-                    <a href="https://instagram.com/gr2business/" target="_blank" style="margin-right: 2em; margin-left: 2em;"><i class="fab fa-instagram fa-2x" style="color: #336a99;"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-youtube fa-2x" style="color: #336a99;"></i></a>
+                    <a href="https://www.facebook.com/gr2business/" target="_blank "><i class="fab fa-facebook fa-2x redes-sociais"
+                            style="color: #336a99; "></i></a>
+                    <a href="https://instagram.com/gr2business/ " target="_blank " style="margin-right: 2em; margin-left: 2em; "><i
+                            class="fab fa-instagram fa-2x " style="color: #336a99; "></i></a>
+                    <a href="# " target="_blank "><i class="fab fa-youtube fa-2x " style="color: #336a99; "></i></a>
                     <a href="# " target="_blank "><i class="fab fa-linkedin fa-2x " style="color: #336a99; margin-left: 1em; "></i></a>
-
                 </div>
                 <div class="col-md-6 ">
-                    <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco " alt="Imagem de notificação de mensagem nos dispositivos conectados a plataforma. ">
+                    <img src="./img/fale_conosco.png " class="img-fluid img-fale-conosco "
+                        alt="Imagem de notificação de mensagem nos dispositivos conectados a plataforma. ">
                 </div>
             </div>
         </div>
     </section>
-    <?php include 'footer.php' ?>
+    <?php include 'footer.php'?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js " type="text/javascript "></script>
@@ -183,6 +185,6 @@
 
         });
     </script>
-    </body>
+</body>
 
 </html>

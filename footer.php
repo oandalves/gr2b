@@ -44,4 +44,3 @@
         </div>
     </div>
 </footer>
-<script src="//code.jivosite.com/widget/tt1nUcbC8Y" async></script>
