@@ -159,9 +159,7 @@
                             </a>
                         </div>
                         <div class="block-fale-conosco ">
-                            <a href="# " target="_blank ">
-                                <img src="./img/chat.svg " alt="Entrar em contato pelo chat ">
-                            </a>
+                        <a href="javascript:void(0)" onclick="jivo_api.open()"><img src="./img/chat.svg " alt="Entrar em contato pelo chat "></a>
                         </div>
 
                     </div>
